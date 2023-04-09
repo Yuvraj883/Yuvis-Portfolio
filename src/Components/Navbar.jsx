@@ -1,5 +1,5 @@
 // import {GiCrownOfThorns} from 'react-icon/gi'; 
-import {GiCrown, GiCrownOfThorns} from 'react-icons/gi'
+import { GiCrownOfThorns} from 'react-icons/gi'
 
 function Navbar(){
     return(
