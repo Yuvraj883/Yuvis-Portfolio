@@ -1,4 +1,5 @@
 import {IoPinSharp} from 'react-icons/io5';
+// import {yuvraj} from '../assets/YuvrajSingh.jpg';
 import {FaGithubSquare, FaLinkedin, FaCss3Alt,FaHtml5, FaReact, FaAngular, FaVuejs,FaNodeJs } from 'react-icons/fa';
 
  import {SiJavascript, SiTailwindcss, SiMongodb, SiBootstrap} from 'react-icons/si'
@@ -21,7 +22,7 @@ function Home(){
                     </p>
                 </div>
                 <div>
-                    <img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25746618.ece/ALTERNATES/s1200c/0_zlatan.jpg"
+                    <img src={require('../assets/image3.jpeg')}
                      className="h-64 w-auto rounded-full" alt="Yuvraj Singh"/>
                 </div>
                 
