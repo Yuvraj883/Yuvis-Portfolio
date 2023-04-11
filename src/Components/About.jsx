@@ -1,7 +1,7 @@
 function About(){
     return(
         <>
-        <div className=" w-3/5 h-auto m-auto p-12 shadow-lg">
+        <div className="flex flex-col align-middle w-3/5 h-auto m-auto p-12 shadow-lg ">
         <div className="flex">
             <div className="flex-1 p-4 py-16">
                 <img src = "https://showmecourses.com/wp-content/uploads/2021/10/web-development.webp" alt="about-img"
@@ -21,7 +21,7 @@ function About(){
                 </p>
             </div>
         </div>
-        <a href={require("https://drive.google.com/file/d/1lRurAlaYeltvg2Mc9nB_i_RzKCCQ3Gjj/view?usp=share_link")} className="m-auto" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5 ">Download Resume</button></a>
+        <a href={require("https://drive.google.com/file/d/1lRurAlaYeltvg2Mc9nB_i_RzKCCQ3Gjj/view?usp=share_link")} className=" w-4/5" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
        
         </div> 
         </>

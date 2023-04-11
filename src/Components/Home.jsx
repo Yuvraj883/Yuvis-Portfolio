@@ -1,4 +1,5 @@
 import {IoPinSharp} from 'react-icons/io5';
+import TechStacks from './TechStacks';
 // import {yuvraj} from '../assets/YuvrajSingh.jpg';
 import {FaGithubSquare, FaLinkedin, FaCss3Alt,FaHtml5, FaReact, FaAngular, FaVuejs,FaNodeJs } from 'react-icons/fa';
 
@@ -7,7 +8,7 @@ import {FaGithubSquare, FaLinkedin, FaCss3Alt,FaHtml5, FaReact, FaAngular, FaVue
 function Home(){
     return(
         <>
-        <div className="h-screen w-screen flex flex-col ">
+        <div className="h-screen w-auto flex flex-col ">
             <div className="flex m-auto w-[50%] justify-around ">
                 <div className="py-12">
                     <h1 className="text-5xl my-4 font-extrabold ">Front-End Developer</h1>
@@ -27,8 +28,9 @@ function Home(){
                 </div>
                 
             </div>
+           <TechStacks/>
              
-            <div className='flex flex-col m-auto py-[-20] my-[-20] w-50%'>
+            {/* <div className='flex flex-col m-auto py-[-20] my-[-20] w-50%'>
                 <div className='flex'>
                 <span className='font-bold text-2xl inline'>Tech Stack: </span>
                 <p >
@@ -56,8 +58,7 @@ function Home(){
                  
                 
             </div>
-            
-           
+             */}
             </div>
             <div>
           
