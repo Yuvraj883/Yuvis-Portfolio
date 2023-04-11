@@ -1,14 +1,14 @@
 import {IoPinSharp} from 'react-icons/io5';
 import TechStacks from './TechStacks';
 // import {yuvraj} from '../assets/YuvrajSingh.jpg';
-import {FaGithubSquare, FaLinkedin, FaCss3Alt,FaHtml5, FaReact, FaAngular, FaVuejs,FaNodeJs } from 'react-icons/fa';
+import {FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
- import {SiJavascript, SiTailwindcss, SiMongodb, SiBootstrap} from 'react-icons/si'
+//  import {SiJavascript, SiTailwindcss, SiMongodb, SiBootstrap} from 'react-icons/si';
 // import {DiNodejs} from 'react-icons/di'
 function Home(){
     return(
         <>
-        <div className="h-screen w-auto flex flex-col ">
+        <div className="h-auto w-auto flex flex-col pt-20 mb-8  ">
             <div className="flex m-auto w-[50%] justify-around ">
                 <div className="py-12">
                     <h1 className="text-5xl my-4 font-extrabold ">Front-End Developer</h1>
