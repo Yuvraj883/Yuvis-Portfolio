@@ -9,7 +9,7 @@ function Home(){
     return(
         <>
         <div className="h-auto w-auto flex flex-col pt-20 mb-8  ">
-            <div className="flex m-auto w-[50%] justify-around ">
+            <div className="flex mx-auto w-[50%] justify-around mb-8 ">
                 <div className="py-12">
                     <h1 className="text-5xl my-4 font-extrabold ">Front-End Developer</h1>
                     <p className="py-8 px-2 inline">Hi, I am <b>Yuvraj Singh</b>, a passionate front-end developer,<br/>
