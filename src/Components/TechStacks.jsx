@@ -23,57 +23,59 @@ function TechStacks() {
 
     return (
         <>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col w-4/5 m-auto justify-center items-center px-auto">
                 <h1 className="text-4xl  ">Tech Stacks</h1>
                 <div className="flex space-x-8 shadow-lg rounded-md p-2  font-bold text-2xl bg-white m-8">
                     <button onClick={() => { setBackEnd(false); setOthers(false); setFrontEnd(true) }} 
-                    className={`hover:bg-[#f1f5f9] py-2 px-8 rounded-md ${this.frontEnd ? "bg-blue-800": " "}`}>Front-End</button>
-                    <button onClick={() => { setFrontEnd(false); setOthers(false); setBackEnd(true) }} className="hover:bg-[#f1f5f9] py-2 px-8 rounded-md">Back-End</button>
-                    <button onClick={() => { setBackEnd(false); setFrontEnd(false); setOthers(true) }} className="hover:bg-[#f1f5f9] py-2 px-8 rounded-md">Others</button>
+                    className={` ${frontEnd ? "bg-black text-white py-2 px-8 rounded-md": "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Front-End</button>
+                    <button onClick={() => { setFrontEnd(false); setOthers(false); setBackEnd(true) }}
+                       className={` ${backEnd ? "bg-[#E5BA73] text-white py-2 px-8 rounded-md": "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Back-End</button>
+                    <button onClick={() => { setBackEnd(false); setFrontEnd(false); setOthers(true) }}
+                      className={` ${others ? "bg-[#E5BA73] py-2 px-8 rounded-md": "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Others</button>
                 </div>
                 {frontEnd === true &&
-                    <div >
+                    <div className='flex  w-4/5 m-auto items-center flex-wrap '>
                         {/* Front-End */}
-                        <ul className='flex  w-4/5 m-auto items-center flex-wrap '>
+                        
 
                             <div className='rounded-full m-2 bg-orange-50 p-6 '>
-                                <li><FaHtml5 className='text-8xl text-orange-500 ' /> </li>
+                                <FaHtml5 className='text-8xl text-orange-500 ' /> 
                             </div>
                             <div className='rounded-full m-2 bg-blue-50 p-6 '>
-                                <li><FaCss3Alt className='text-8xl text-blue-500 bg-blue-50 ' /> </li>
+                                <FaCss3Alt className='text-8xl text-blue-500 bg-blue-50 ' /> 
 
                             </div>
                             <div className='rounded-full m-2 bg-yellow-50 p-6 '>
-                                <li><SiJavascript className='text-8xl text-yellow-300 bg-yellow-50 ' /> </li>
+                                <SiJavascript className='text-8xl text-yellow-300 bg-yellow-50 ' /> 
 
                             </div>
                             <div className='rounded-full m-2 bg-blue-100 p-6 ' >
-                                <li><FaReact className='text-8xl text-blue-400 ' /> </li>
+                                <FaReact className='text-8xl text-blue-400 ' /> 
 
                             </div>
                             <div className='rounded-full m-2  bg-green-50 p-6 '>
-                                <li><FaVuejs className='text-8xl text-green-500 bg-green-50 ' /> </li>
+                                <FaVuejs className='text-8xl text-green-500 bg-green-50 ' /> 
 
                             </div>
 
                             <div className='rounded-full m-2 bg-red-50 p-6 '>
-                                <li><FaAngular className='text-8xl text-red-500 bg-red-50' /> </li>
+                                <FaAngular className='text-8xl text-red-500 bg-red-50' />
 
                             </div>
 
 
                             <div className='rounded-full m-2 bg-blue-50 p-6 '>
-                                <li><SiTailwindcss className='text-8xl text-blue-400 bg-blue-50 ' /> </li>
+                                <SiTailwindcss className='text-8xl text-blue-400 bg-blue-50 ' /> 
 
                             </div>
 
                             <div className='rounded-full m-2 bg-purple-50 p-6 '>
-                                <li><SiBootstrap className='text-8xl text-purple-400' /> </li>
+                                <SiBootstrap className='text-8xl text-purple-400' />
 
 
                             </div>
 
-                        </ul>
+                        
                     </div>
                 }
 
