@@ -1,7 +1,7 @@
 function About(){
     return(
         <>
-        <div className="flex flex-col align-middle w-3/5 h-auto m-auto p-12 shadow-lg bg-white ">
+        <div className="flex flex-col align-middle w-3/5 h-auto m-auto p-12 shadow-lg bg-white my-16">
         <div className="flex">
             <div className="flex-1 p-4 py-16">
                 <img src = "https://showmecourses.com/wp-content/uploads/2021/10/web-development.webp" alt="about-img"
