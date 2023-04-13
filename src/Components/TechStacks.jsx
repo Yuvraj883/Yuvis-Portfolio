@@ -104,7 +104,8 @@ function TechStacks() {
                     backEnd === true && <div className="flex  w-4/5 m-auto items-center flex-wrap">
                         <div>
                             <div className='rounded-full m-2 bg-green-50 p-6 '>
-                                <FaNodeJs className='text-8xl text-green-400 ' />
+                            {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
+                               <FaNodeJs className='text-8xl text-green-400 '/> 
                             </div>
                             <p className='font-semibold text-xl text-center'>NodeJs</p>
 
@@ -127,14 +128,14 @@ function TechStacks() {
                     others === true && <div className="flex  w-4/5 m-auto items-center flex-wrap">
                         <div>
                             <div className='rounded-full m-3 bg-blue-50 p-6 '>
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/c-57-1175191.png" className='h-24' alt="Java" />
+                                <img src={require('../assets/c.png')} className='h-24' alt="Java" />
                             </div>
                             <p className='font-semibold text-xl text-center'>C</p>
 
                         </div>
                         <div>
                             <div className='rounded-full m-3 bg-purple-50 p-6 '>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" className='h-24' alt="Java" />
+                                <img src={require('../assets/c++.png')} className='h-24' alt="Java" />
 
                             </div>
                             <p className='font-semibold text-xl text-center'>C++</p>
@@ -143,7 +144,7 @@ function TechStacks() {
 
                         <div>
                             <div className='rounded-full m-3 bg-red-50 p-6 '>
-                                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" className='h-24' alt="Java" />
+                                <img src={require('../assets/Java.png')} className='h-24' alt="Java" />
                             </div>
                             <p className='font-semibold text-xl text-center'>Java</p>
 
@@ -152,7 +153,7 @@ function TechStacks() {
 
                         <div>
                             <div className='rounded-full m-3 bg-orange-50 p-6 '>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/480px-Git_icon.svg.png" className='h-24' alt="Java" />
+                                <img src={require('../assets/Git.png')} className='h-24' alt="Java" />
 
                             </div>
 
@@ -161,7 +162,7 @@ function TechStacks() {
 
                         <div>
                             <div className='rounded-full m-3 bg-[#f9fafb] p-6 '>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" className='h-24' alt="Java" />
+                                <img src={require('../assets/github.png')} className='h-24' alt="Java" />
 
                             </div>
                             <p className='font-semibold text-xl text-center'>Git Hub</p>
@@ -170,7 +171,7 @@ function TechStacks() {
 
                         <div>
                             <div className='rounded-full m-3 bg-green-50 p-6 '>
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/netlify-3628945-3030170.png" className='h-24' alt="Java" />
+                                <img src={require('../assets/netlify.webp')} className='h-24' alt="Java" />
 
                             </div>
                             <p className='font-semibold text-xl text-center'>Netlify</p>
