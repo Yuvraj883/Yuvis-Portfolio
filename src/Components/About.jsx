@@ -21,7 +21,7 @@ function About(){
                 </p>
             </div>
         </div>
-        <a href={require("https://drive.google.com/file/d/1lRurAlaYeltvg2Mc9nB_i_RzKCCQ3Gjj/view?usp=share_link")} className=" w-4/5" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
+        <a href={require("../assets/image2.jpg")} className=" w-4/5" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
        
         </div> 
         </>

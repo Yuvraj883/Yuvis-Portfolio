@@ -3,7 +3,7 @@ import {RiExternalLinkFill} from 'react-icons/ri'
 function Project(){
     return (
         <>
-        <card className="flex flex-col w-1/4 m-3 shadow-md rounded-md p-4 bg-white">
+        <div className="flex flex-col w-1/4 m-3 shadow-md rounded-md p-4 bg-white">
             <img src={require('../assets/WhiteBoard.jpeg')} alt="Project Name"
             className="h-48 w-auto"/>
             <h1 className='font-semibold text-xl'>White Board</h1>
@@ -21,7 +21,7 @@ function Project(){
 
         </div>
 
-        </card>
+        </div>
         
         </>
     )
