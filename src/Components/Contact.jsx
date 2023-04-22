@@ -1,15 +1,30 @@
+import img from '../assets/contactUnDraw.svg';
 function Contact(){
     return(
         <>
-        <div className="flex flex-col items-center bg-white">
-            <h1>Contact Me</h1>
-        <form className=" flex-col m-auto w-[40%] p-8">
-            <input placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
-            <input placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
-            <textarea placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5"></textarea>
+        <div className="flex flex-col items-center bg-white w-[90%] shadow-lg m-auto px-12 py-8">
+            <h1 className='text-3xl font-bolder'>Contact Me</h1>
+            <div className='flex justify-around items-center p-8 m-auto'>
+                <div className='w-2/4 m-auto p-2'>
+                <img src={img} className='h-96 w-auto' alt="UnDraw"/>
+
+                </div>
+                <div className='p-8 w-[50%]'>
+                    <h3 className='font-bolder text-2xl text-slate-500'>Get in touch</h3>
+                    <p className='w-4/5  text-slate-500 my-4 font-semibold'>My inbox is always open, wheather you have a queston, project idea or just want to say hello, 
+                        I will try my best to get back to you!!
+                    </p>
+                <form className=" flex-col my-4 ">
+                <input type='text' required placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
+                <input type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
+                <textarea type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
+                <button type='submit' className='bg-blue-500 block  px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>Send Message</button>
 
 
-        </form>
+                </form>
+                </div>
+            </div>
+      
         </div>
         </>
     )
