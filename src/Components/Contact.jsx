@@ -38,8 +38,6 @@ function Contact(){
                 <input name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
                 <textarea name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
                 <button type='submit' className='bg-blue-500 block  px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>Send Message</button>
-
-
                 </form>
                 </div>
             </div>
