@@ -1,17 +1,32 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import img from '../assets/contactUnDraw.svg';
 function Contact(){
     const form = useRef();
+    const [values, setValues] = useState({
+        from_name: '', 
+        from_email:'', 
+        message: ''
+    })
+
+    const onChange = (e)=>{
+        setValues({...values, [e.target.name]:e.target.value})
+    }
 
     const sendEmail = (e)=>{
         e.preventDefault(); 
-        console.log("function called");
+        console.log("Form Current"+form.current);
+        console.log("Values: "+values);
 
         emailjs.sendForm('service_fljlucc', 'template_dihkdzp', form.current, '0_W1NUKR-qvMvdk7o')
         .then((result)=>{
             
             console.log(result); 
+        // setValues({...values, from_})
+
+            values.from_email='';
+            values.from_name = '';
+            values.message = '';
         }, (error)=>{
             console.log(error);
         }
@@ -34,9 +49,9 @@ function Contact(){
                         I will try my best to get back to you!!
                     </p>
                 <form ref={form} className=" flex-col my-4 " onSubmit={sendEmail}>
-                <input name='from_name' type='text' required placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
-                <input name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
-                <textarea name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
+                <input value={values.from_name} onChange={onChange} name='from_name' type='text' required placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
+                <input onChange={onChange} name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
+                <textarea onChange={onChange} name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
                 <button type='submit' className='bg-blue-500 block  px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>Send Message</button>
                 </form>
                 </div>
