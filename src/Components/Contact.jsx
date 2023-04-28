@@ -6,27 +6,36 @@ function Contact(){
     const [values, setValues] = useState({
         from_name: '', 
         from_email:'', 
-        message: ''
+        message: '', 
+        // btn_text:'Send Message',
     })
 
+    const [btn_text, setBtnText] = useState('Send Message'); 
+
+    
     const onChange = (e)=>{
         setValues({...values, [e.target.name]:e.target.value})
     }
 
     const sendEmail = (e)=>{
+
         e.preventDefault(); 
-        console.log("Form Current"+form.current);
-        console.log("Values: "+values);
+        
+        // console.log("Form Current"+form.current);
+        // console.log("Values: "+values);
+        setBtnText('Sending...'); 
+        
 
         emailjs.sendForm('service_fljlucc', 'template_dihkdzp', form.current, '0_W1NUKR-qvMvdk7o')
         .then((result)=>{
-            
-            console.log(result); 
-        // setValues({...values, from_})
+            // setValues({btn_text:'Send Message'});
+            // alert(result.text); 
+        setBtnText('Send Message'); 
 
-            values.from_email='';
-            values.from_name = '';
-            values.message = '';
+         setValues({from_name:'', from_email:'', message:''})
+            // values.from_email='';
+            // values.from_name = '';
+            // values.message = '';
         }, (error)=>{
             console.log(error);
         }
@@ -38,6 +47,7 @@ function Contact(){
         <>
         <div className="flex flex-col items-center bg-white w-[90%] shadow-lg m-auto px-12 py-8">
             <h1 className='text-3xl font-bolder'>Contact Me</h1>
+            {values.from_name}{values.from_email}
             <div className='flex justify-around items-center p-8 m-auto'>
                 <div className='w-2/4 m-auto p-2'>
                 <img src={img} className='h-96 w-auto' alt="UnDraw"/>
@@ -50,9 +60,9 @@ function Contact(){
                     </p>
                 <form ref={form} className=" flex-col my-4 " onSubmit={sendEmail}>
                 <input value={values.from_name} onChange={onChange} name='from_name' type='text' required placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
-                <input onChange={onChange} name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
-                <textarea onChange={onChange} name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
-                <button type='submit' className='bg-blue-500 block  px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>Send Message</button>
+                <input value={values.from_email} onChange={onChange} name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5"/>
+                <textarea value={values.message} onChange={onChange} name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
+                <button  type='submit' className='bg-blue-500 block  px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>{btn_text}</button>
                 </form>
                 </div>
             </div>
