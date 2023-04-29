@@ -20,22 +20,17 @@ function Contact(){
     const sendEmail = (e)=>{
 
         e.preventDefault(); 
-        
-        // console.log("Form Current"+form.current);
-        // console.log("Values: "+values);
+       
         setBtnText('Sending...'); 
         
 
         emailjs.sendForm('service_fljlucc', 'template_dihkdzp', form.current, '0_W1NUKR-qvMvdk7o')
         .then((result)=>{
-            // setValues({btn_text:'Send Message'});
-            // alert(result.text); 
+           
         setBtnText('Send Message'); 
 
          setValues({from_name:'', from_email:'', message:''})
-            // values.from_email='';
-            // values.from_name = '';
-            // values.message = '';
+
         }, (error)=>{
             console.log(error);
         }
