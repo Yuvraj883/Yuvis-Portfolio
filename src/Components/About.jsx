@@ -27,7 +27,7 @@ function About() {
 
             {/* mobile view */}
             <div className='md:hidden bg-white rounded-md shadow-md w-4/5 m-auto p-4'>
-            <div className="flex flex-col">
+                <div className="flex flex-col">
                     <div className="flex-1 px-4 py-8">
                         <img src={require('../assets/web-development.webp')} alt="about-img"
                             className=""
@@ -45,7 +45,7 @@ function About() {
 
                         </p>
 
-                <a href={require("../assets/image2.jpg")} className="flex justify-center items-center mt-4" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
+                        <a href={require("../assets/image2.jpg")} className="flex justify-center items-center mt-4" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
 
                     </div>
                 </div>
