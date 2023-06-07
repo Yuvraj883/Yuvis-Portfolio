@@ -20,15 +20,7 @@ function Projects(){
     }
 
     const projects = [
-        {   id:8,
-            coverImg:'../images/WebTemplate.jpeg',
-            title: 'Dummy Webtemplate',
-            description:'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
-            techstack: 'HTML, CSS, BootStrap',
-            github: 'https://github.com/Yuvraj883/Web-Template', 
-            live: 'https://yuvraj883.github.io/Web-Template/'
-
-        },
+       
         {   id:2,
             coverImg:'../images/Diusburg.jpeg',
             title: 'Diusburg Landing Page',
@@ -36,6 +28,15 @@ function Projects(){
             techstack: 'HTML, CSS',
             github: 'https://github.com/Diusburg/LandingPage', 
             live: 'https://diusburg.github.io/LandingPage/'
+
+        },
+        {   id:9,
+            coverImg:'../images/Portfolio.jpeg',
+            title: 'Dummy Portfolio',
+            description:'Made this site while learning HTML and CSS.',
+            techstack: 'HTML, CSS',
+            github: 'https://github.com/Yuvraj883/myPortfolio', 
+            live: 'https://yuvraj883.github.io/myPortfolio/index.html'
 
         },
         {   id:5,
@@ -92,6 +93,14 @@ function Projects(){
             techstack: 'HTML, CSS, JS, FetchAPI',
             github: 'https://github.com/Yuvraj883/Task-Manager', 
             live: 'https://github.com/Yuvraj883/Task-Manager'
+
+        }, {   id:8,
+            coverImg:'../images/WebTemplate.jpeg',
+            title: 'Dummy Webtemplate',
+            description:'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
+            techstack: 'HTML, CSS, BootStrap',
+            github: 'https://github.com/Yuvraj883/Web-Template', 
+            live: 'https://yuvraj883.github.io/Web-Template/'
 
         },
        
