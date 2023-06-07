@@ -7,7 +7,7 @@ function Projects(){
     const [index, setIndex] = useState(0);
 
     const prevCard = ()=>{
-        const newIndex = index === 0? projects.length -1 : index-1; 
+        const newIndex = index === 0? projects.length-1 : index-1; 
         setIndex(newIndex); 
         console.log(index);
     }
@@ -88,14 +88,14 @@ function Projects(){
        
         </div> */}
 
-        <div className="w-[60%] mx-auto relative md:flex hidden overflow-hidden justify-center align-center ">
+        <div className="w-[80%] mx-auto bg-white p-6 shadow-lg relative md:flex hidden overflow-hidden group justify-center align-center cursor-pointer">
             {/* <img src={projects[index].coverImg} alt="Project card"/> */}
             <SliderCard props = {projects[index-1<0?projects.length-1:index-1]} key = {projects[index-1<0?projects.length-1:index-1]} ></SliderCard>
             <SliderCard className="w-[125%] h-auto " props = {projects[index]} key = {projects[index].id} ></SliderCard>
             <SliderCard props = {projects[index+1>projects.length-1?0:index+1]} key = {projects[index+1>projects.length-1?0:index+1].id} ></SliderCard>
 
-           <BsChevronCompactLeft onClick={prevCard} className="absolute top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%] duration-500  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
-            <BsChevronCompactRight onClick={nextCard}  className="absolute top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 -translate-x-0 -translate-y-[50%] duration-500 text-white rounded-full " size={30} ></BsChevronCompactRight>
+           <BsChevronCompactLeft onClick={prevCard} className="absolute hidden group-hover:block top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%] duration-500  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
+            <BsChevronCompactRight onClick={nextCard}  className="absolute hidden group-hover:block top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 -translate-x-0 -translate-y-[50%] duration-500 text-white rounded-full " size={30} ></BsChevronCompactRight>
         </div>
 {/* Mobile View */}
         <div className="md:hidden w-[80%] mx-auto relative flex overflow-hidden">
