@@ -20,13 +20,13 @@ function Projects(){
     }
 
     const projects = [
-        {   id:1,
-            coverImg:'../images/whiteBoard.jpeg',
-            title: 'White Board',
-            description:'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
-            techstack: 'HTML, CSS, JS, Canva',
-            github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2', 
-            live: 'https://yuvis-whiteboard.netlify.app/'
+        {   id:8,
+            coverImg:'../images/WebTemplate.jpeg',
+            title: 'Dummy Webtemplate',
+            description:'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
+            techstack: 'HTML, CSS, BootStrap',
+            github: 'https://github.com/Yuvraj883/Web-Template', 
+            live: 'https://yuvraj883.github.io/Web-Template/'
 
         },
         {   id:2,
@@ -38,6 +38,26 @@ function Projects(){
             live: 'https://diusburg.github.io/LandingPage/'
 
         },
+        {   id:5,
+            coverImg:'../images/RealEstate.jpeg',
+            title: 'Real Estate Site Landing Page',
+            description:'It is a landing page for some real-estate site, made as part of an assignment.',
+            techstack: 'VueJs',
+            github: 'https://github.com/Yuvraj883/Real-Estate-Site', 
+            live: 'https://real-estate-site-assignment.netlify.app/'
+
+        },
+       
+        {   id:1,
+            coverImg:'../images/whiteBoard.jpeg',
+            title: 'White Board',
+            description:'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
+            techstack: 'HTML, CSS, JS, Canva',
+            github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2', 
+            live: 'https://yuvis-whiteboard.netlify.app/'
+
+        },
+       
         {   id:3,
             coverImg:'../images/TextToSpeech.jpeg',
             title: 'Text To Speech Convertor',
@@ -56,15 +76,7 @@ function Projects(){
             live: 'https://newpasswordgenerator.netlify.app/'
 
         },
-        {   id:5,
-            coverImg:'../images/RealEstate.jpeg',
-            title: 'Real Estate Site Landing Page',
-            description:'It is a landing page for some real-estate site, made as part of an assignment.',
-            techstack: 'VueJs',
-            github: 'https://github.com/Yuvraj883/Real-Estate-Site', 
-            live: 'https://real-estate-site-assignment.netlify.app/'
-
-        },
+       
         {   id:6,
             coverImg:'../images/TaskManager.jpeg',
             title: 'Task Manager',
@@ -72,8 +84,18 @@ function Projects(){
             techstack: 'VueJs, LocalStorage',
             github: 'https://github.com/Yuvraj883/Task-Manager', 
             live: 'https://github.com/Yuvraj883/Task-Manager'
+        },
+        {   id:7,
+            coverImg:'../images/TextTranslator.jpeg',
+            title: 'Task Manager',
+            description:'This site translates your texts into the pirates language using the "https://api.funtranslations.com/translate/minion.json" api.',
+            techstack: 'HTML, CSS, JS, FetchAPI',
+            github: 'https://github.com/Yuvraj883/Task-Manager', 
+            live: 'https://github.com/Yuvraj883/Task-Manager'
 
-        }
+        },
+       
+
     ]
     return(
         <div className="flex flex-col my-16 ">
