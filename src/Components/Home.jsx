@@ -43,7 +43,7 @@ function Home() {
                 </div>
 
 
-                <TechStacks />
+                {/* <TechStacks className="md:block hidden" /> */}
 
 
             </div>
@@ -80,7 +80,7 @@ function Home() {
 
             </div>
 
-            <TechStacks />
+            <TechStacks className="md:hidden block" />
         
 
         </>
