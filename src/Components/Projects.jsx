@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Project from "./Project";
+// import Project from "./Project";
 import SliderCard from "./SliderCard";
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 function Projects(){
