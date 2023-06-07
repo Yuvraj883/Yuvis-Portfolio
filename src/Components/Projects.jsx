@@ -1,8 +1,42 @@
+import { useState } from "react";
 import Project from "./Project";
+import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 function Projects(){
+    
+    const [index, setIndex] = useState(1);
+
+    const prevCard = ()=>{
+        const newIndex = index ===0? projects.length -1 : index-1; 
+        setIndex(newIndex); 
+    }
+
+    const nextCard = ()=>{
+        const newIndex = index === projects.length-1? 0 : index+1; 
+        setIndex(newIndex); 
+    }
+
     const projects = [
         {   id:1,
+            coverImg:'../whiteBoard.jpeg',
             title: 'White Board',
+            description:'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
+            techstack: 'HTML, CSS, JS, Canva',
+            github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2', 
+            live: 'https://yuvis-whiteboard.netlify.app/'
+
+        },
+        {   id:2,
+            coverImg:'../WhiteBoard.jpeg',
+            title: 'Black Board',
+            description:'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
+            techstack: 'HTML, CSS, JS, Canva',
+            github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2', 
+            live: 'https://yuvis-whiteboard.netlify.app/'
+
+        },
+        {   id:3,
+            coverImg:'../WhiteBoard.jpeg',
+            title: 'Brown Board',
             description:'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
             techstack: 'HTML, CSS, JS, Canva',
             github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2', 
@@ -21,6 +55,13 @@ function Projects(){
         }
      
        
+        </div>
+
+        <div className="w-[60%] mx-auto relative ">
+            {/* <img src={projects[index].coverImg} alt="Project card"/> */}
+            <Project props = {projects[index]} key = {projects[0].id} ></Project>
+           <BsChevronCompactLeft onClick={prevCard} className="absolute top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%]  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
+            <BsChevronCompactRight onClick={nextCard}  className="absolute top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactRight>
         </div>
 
         </div>
