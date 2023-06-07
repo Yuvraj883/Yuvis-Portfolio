@@ -5,7 +5,7 @@ function SliderCard(props) {
 
     return (
         <>
-            <div className="md:flex hidden flex-col w-2/3 mx-auto m-3 shadow-md rounded-md p-4 bg-white">
+            <div className="md:flex hidden flex-col w-2/3 m-4 shadow-md rounded-md p-4 bg-white">
                 <img src={props?.props?.coverImg} alt="Project Cover Img"
                     className="h-auto w-auto" />
                 <h1 className='font-semibold text-xl'>{props?.props?.title}</h1>
@@ -27,8 +27,8 @@ function SliderCard(props) {
                 </div>
 
             </div>
-
-            <div className="md:hidden flex flex-col w-[50%] m-2 shadow-md rounded-md p-2 bg-white">
+ {/* Mobile view */}
+            <div className="md:hidden m-auto flex flex-col w-[90%]  shadow-md rounded-md p-2 bg-white">
                 <img src={props?.props?.coverImg} alt="Project Name"
                     className="h-48 w-auto" />
                 <h1 className='font-semibold text-xl'>{props.props.title}</h1>
