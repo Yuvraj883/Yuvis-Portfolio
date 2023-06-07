@@ -96,7 +96,7 @@ function Projects(){
 
         }, {   id:8,
             coverImg:'../images/WebTemplate.jpeg',
-            title: 'Dummy Webtemplate',
+            title: 'ThemeForest template clone',
             description:'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
             techstack: 'HTML, CSS, BootStrap',
             github: 'https://github.com/Yuvraj883/Web-Template', 
