@@ -187,13 +187,13 @@ function TechStacks() {
             {/* Mobile view */}
             <div className="md:hidden flex flex-col  w-full mx-auto my-8 justify-center items-center px-auto">
                 <h1 className="text-4xl  ">Tech Stacks</h1>
-                <div className="flex space-x-4 shadow-lg rounded-md p-2  font-bold text-lg w-[90%] bg-white m-4">
+                <div className="flex space-x-1 shadow-lg rounded-md p-2  font-bold text-lg w-[90%] bg-white m-4">
                     <button onClick={() => { setBackEnd(false); setOthers(false); setFrontEnd(true) }}
-                        className={` ${frontEnd ? "bg-[#E5BA73] text-white py-2 px-4 rounded-md" : "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Front-End</button>
+                        className={` ${frontEnd ? "bg-[#E5BA73] text-white py-1 px-2 rounded-md" : "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Front-End</button>
                     <button onClick={() => { setFrontEnd(false); setOthers(false); setBackEnd(true) }}
-                        className={` ${backEnd ? "bg-[#E5BA73] text-white py-2 px-4 rounded-md" : "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Back-End</button>
+                        className={` ${backEnd ? "bg-[#E5BA73] text-white py-1 px-2 rounded-md" : "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Back-End</button>
                     <button onClick={() => { setBackEnd(false); setFrontEnd(false); setOthers(true) }}
-                        className={` ${others ? "bg-[#E5BA73] text-white py-2 px-4 rounded-md" : "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Others</button>
+                        className={` ${others ? "bg-[#E5BA73] text-white py-1 px-2 rounded-md" : "hover:bg-[#f1f5f9] py-2 px-8 rounded-md  "}`}>Others</button>
                 </div>
                 {frontEnd === true &&
                     <div className='flex flex-row w-4/5 mx-auto space-x-4 items-center justify-center flex-wrap  '>
