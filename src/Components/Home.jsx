@@ -47,12 +47,12 @@ function Home() {
 
 
             </div>
-            <div className='md:hidden flex flex-col jutify-center items-center p-4 m-2'>
+            <div className='md:hidden flex flex-col jutify-center items-center p-4 m-4'>
                 <div>
                     <img src={require('../assets/image3.jpeg')}
                         className="h-64 w-auto rounded-full" alt="Yuvraj Singh" />
                 </div>
-                <div className='py-16 w-[65%] pr-4'>
+                <div className='py-8 w-[65%] pr-4'>
                     <div>
                         <h3 className='text-xl font-semibold inline mt-4'>Hi <span className='inline text-xl'>&#128075;</span>	</h3>
                     </div>
@@ -60,7 +60,7 @@ function Home() {
                     <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
                         <Typewriter
                             words={[" a Front-End Developer", ' a Back-End Developer', ' a Full Stack Developer', ' Yuvraj Singh!!!']}
-                            loop={99999}
+                            loop={1}
                             cursor
                             cursorStyle='|'
                             typeSpeed={70}
