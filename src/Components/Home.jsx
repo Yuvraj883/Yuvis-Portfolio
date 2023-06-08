@@ -47,6 +47,7 @@ function Home() {
 
 
             </div>
+            {/* Mobile view  */}
             <div className='md:hidden flex flex-col jutify-center items-center p-4 m-4'>
                 <div>
                     <img src={require('../assets/image3.jpeg')}
