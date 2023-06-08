@@ -3,9 +3,9 @@ function About() {
         <>
             <div className="md:flex hidden flex-col align-middle w-3/5 h-auto m-auto p-12 shadow-lg bg-white my-16">
                 <div className="flex">
-                    <div className="flex-1 p-4 py-16">
+                    <div className="flex-1 p-4 py-16 ">
                         <img src={require('../assets/web-development.webp')} alt="about-img"
-                            className=""
+                            className="shadow-md"
                         />
 
                     </div>
@@ -30,7 +30,7 @@ function About() {
                 <div className="flex flex-col">
                     <div className="flex-1 px-4 py-8">
                         <img src={require('../assets/web-development.webp')} alt="about-img"
-                            className=""
+                            className="shadow-md"
                         />
 
                     </div>
