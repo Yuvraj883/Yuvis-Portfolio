@@ -15,18 +15,18 @@ function Navbar() {
             <nav className="md:flex justify-between text-red-950  fixed w-screen hidden ">
                 <span className="m-2 p-2 font-extrabold font-serif text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline text-3xl" /> Dev-Yuvi</span>
                 <ul className="flex px-4 font-bold cursor-pointer">
-                    <li className="m-2 p-2">Home</li>
-                    <li className="m-2 p-2">About Me</li>
-                    <li className="m-2 p-2">Projects</li>
+                    <li className="m-2 p-2"><a href="#home">Home</a></li>
+                    <li className="m-2 p-2"><a href="#about">About Me</a></li>
+                    <li className="m-2 p-2"><a href="#projects">Projects</a></li>
                     <li className="m-2 p-2">Blogs</li>
-                    <li className="m-2 p-2">Contact</li>
+                    <li className="m-2 p-2"><a href="#contact">Contact</a></li>
                 </ul>
 
             </nav>
 
             {/* Mobile View */}
             <div className='flex justify-between items-center cursor-pointer  pr-2 md:hidden' onClick={handleSetNav}>
-                <span className="m-2 p-2 font-extrabold font-serif text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline text-3xl" /> Dev-Yuvi</span>
+                <span className="m-2 p-2 font-extrabold font-serif  text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline  text-3xl" /> Dev-Yuvi</span>
                 <div>
                     {
                         nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />
