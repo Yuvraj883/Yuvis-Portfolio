@@ -129,7 +129,7 @@ function Projects(){
             <BsChevronCompactRight onClick={nextCard}  className="absolute hidden group-hover:block top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 -translate-x-0 -translate-y-[50%] duration-500 text-white rounded-full " size={30} ></BsChevronCompactRight>
         </div>
 {/* Mobile View */}
-        <div className="md:hidden w-[80%] mx-auto relative flex overflow-hidden">
+        <div className="md:hidden w-[80%] mx-auto relative bg-white shadow-lg p-8 flex overflow-hidden">
             {/* <img src={projects[index].coverImg} alt="Project card"/> */}
            
             <SliderCard props = {projects[index]}  ></SliderCard>
