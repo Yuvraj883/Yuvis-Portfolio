@@ -1,115 +1,129 @@
 import { useState } from "react";
 // import Project from "./Project";
+import { RxDotFilled } from 'react-icons/rx'
 import SliderCard from "./SliderCard";
-import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
-function Projects(){
-    
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
+function Projects() {
+
     const [index, setIndex] = useState(0);
 
-    const prevCard = ()=>{
-        const newIndex = index === 0? projects.length-1 : index-1; 
-        setIndex(newIndex); 
-        console.log(index);
+    const prevCard = () => {
+        const newIndex = index === 0 ? projects.length - 1 : index - 1;
+        setIndex(newIndex);
+        // console.log(index);
     }
 
-    const nextCard = ()=>{
-        const newIndex = index === projects.length-1? 0 : index+1; 
-        setIndex(newIndex); 
-        console.log(index);
+    const nextCard = () => {
+        const newIndex = index === projects.length - 1 ? 0 : index + 1;
+        setIndex(newIndex);
+        // console.log(index);
 
+    }
+
+    const goToSlide = (index)=>{
+        setIndex(index);
     }
 
     const projects = [
-       
-        {   id:2,
-            coverImg:'../images/Diusburg.jpeg',
+
+        {
+            id: 2,
+            coverImg: '../images/Diusburg.jpeg',
             title: 'Diusburg Landing Page',
-            description:'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad..',
+            description: 'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad..',
             techstack: 'HTML, CSS',
-            github: 'https://github.com/Diusburg/LandingPage', 
+            github: 'https://github.com/Diusburg/LandingPage',
             live: 'https://diusburg.github.io/LandingPage/'
 
         },
-        {   id:9,
-            coverImg:'../images/Portfolio.jpeg',
+        {
+            id: 9,
+            coverImg: '../images/Portfolio.jpeg',
             title: 'Dummy Portfolio',
-            description:'Made this site while learning HTML and CSS.',
+            description: 'Made this site while learning HTML and CSS.',
             techstack: 'HTML, CSS',
-            github: 'https://github.com/Yuvraj883/myPortfolio', 
+            github: 'https://github.com/Yuvraj883/myPortfolio',
             live: 'https://yuvraj883.github.io/myPortfolio/index.html'
 
         },
-        {   id:5,
-            coverImg:'../images/RealEstate.jpeg',
+        {
+            id: 5,
+            coverImg: '../images/RealEstate.jpeg',
             title: 'Real Estate Site Landing Page',
-            description:'It is a landing page for some real-estate site, made as part of an assignment.',
+            description: 'It is a landing page for some real-estate site, made as part of an assignment.',
             techstack: 'VueJs',
-            github: 'https://github.com/Yuvraj883/Real-Estate-Site', 
+            github: 'https://github.com/Yuvraj883/Real-Estate-Site',
             live: 'https://real-estate-site-assignment.netlify.app/'
 
         },
-       
-        {   id:1,
-            coverImg:'../images/whiteBoard.jpeg',
+
+        {
+            id: 1,
+            coverImg: '../images/whiteBoard.jpeg',
             title: 'White Board',
-            description:'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
+            description: 'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
             techstack: 'HTML, CSS, JS, Canva',
-            github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2', 
+            github: 'https://github.com/Yuvraj883/LinkedInJsChallenge2',
             live: 'https://yuvis-whiteboard.netlify.app/'
 
         },
-       
-        {   id:3,
-            coverImg:'../images/TextToSpeech.jpeg',
+
+        {
+            id: 3,
+            coverImg: '../images/TextToSpeech.jpeg',
             title: 'Text To Speech Convertor',
-            description:'This is a text to speech convertor made using the JS SpeechSynthesis api.',
+            description: 'This is a text to speech convertor made using the JS SpeechSynthesis api.',
             techstack: 'HTML, CSS, JS, SpeechSynthesis API',
-            github: 'https://github.com/Yuvraj883/Text-to-Speech', 
+            github: 'https://github.com/Yuvraj883/Text-to-Speech',
             live: 'https://convrt-txt-to-speech.netlify.app/'
 
         },
-        {   id:4,
-            coverImg:'./images/PasswordGenerator.jpeg',
+        {
+            id: 4,
+            coverImg: './images/PasswordGenerator.jpeg',
             title: 'Unique Password Generator',
-            description:'It is a random password generator, which generates unique 15 characters long password using JS.',
+            description: 'It is a random password generator, which generates unique 15 characters long password using JS.',
             techstack: 'HTML, CSS, JS',
-            github: 'https://github.com/Yuvraj883/Password-Generator', 
+            github: 'https://github.com/Yuvraj883/Password-Generator',
             live: 'https://newpasswordgenerator.netlify.app/'
 
         },
-       
-        {   id:6,
-            coverImg:'../images/TaskManager.jpeg',
+
+        {
+            id: 6,
+            coverImg: '../images/TaskManager.jpeg',
             title: 'Task Manager',
-            description:'It is a practice website made while learning VueJS, it usage the local storage of the browser to store data.',
+            description: 'It is a practice website made while learning VueJS, it usage the local storage of the browser to store data.',
             techstack: 'VueJs, LocalStorage',
-            github: 'https://github.com/Yuvraj883/Task-Manager', 
+            github: 'https://github.com/Yuvraj883/Task-Manager',
             live: 'https://github.com/Yuvraj883/Task-Manager'
         },
-        {   id:7,
-            coverImg:'../images/TextTranslator.jpeg',
+        {
+            id: 7,
+            coverImg: '../images/TextTranslator.jpeg',
             title: 'Task Manager',
-            description:'This site translates your texts into the pirates language using the "https://api.funtranslations.com/translate/minion.json" api.',
+            description: 'This site translates your texts into the pirates language using the "https://api.funtranslations.com/translate/minion.json" api.',
             techstack: 'HTML, CSS, JS, FetchAPI',
-            github: 'https://github.com/Yuvraj883/Task-Manager', 
+            github: 'https://github.com/Yuvraj883/Task-Manager',
             live: 'https://github.com/Yuvraj883/Task-Manager'
 
-        }, {   id:8,
-            coverImg:'../images/WebTemplate.jpeg',
+        }, {
+            id: 8,
+            coverImg: '../images/WebTemplate.jpeg',
             title: 'ThemeForest template clone',
-            description:'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
+            description: 'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
             techstack: 'HTML, CSS, BootStrap',
-            github: 'https://github.com/Yuvraj883/Web-Template', 
+            github: 'https://github.com/Yuvraj883/Web-Template',
             live: 'https://yuvraj883.github.io/Web-Template/'
 
         },
-       
+
 
     ]
-    return(
+    return (
         <div className="flex flex-col my-16 ">
-        <h1 className="text-4xl text-cneter m-auto p-4">Projects</h1>
-{/* 
+            <h1 className="text-4xl text-cneter m-auto p-4">Projects</h1>
+            {/* 
         <div className="flex flex-wrap w-4/5 p-auto m-auto  justify-center items-center">
             
         {
@@ -118,25 +132,52 @@ function Projects(){
      
        
         </div> */}
+            <div className="mx-auto bg-white p-6 shadow-lg md:block hidden overflow-hidden group cursor-pointer justify-center items-center w-[80%]">
+                <div className="flex relative justify-center align-center ">
+                    {/* <img src={projects[index].coverImg} alt="Project card"/> */}
+                    <SliderCard props={projects[index - 1 < 0 ? projects.length - 1 : index - 1]} key={projects[index - 1 < 0 ? projects.length - 1 : index - 1]} ></SliderCard>
+                    <SliderCard  props={projects[index]} key={projects[index].id} ></SliderCard>
+                    <SliderCard props={projects[index + 1 > projects.length - 1 ? 0 : index + 1]} key={projects[index + 1 > projects.length - 1 ? 0 : index + 1].id} ></SliderCard>
 
-        <div className="w-[80%] mx-auto bg-white p-6 shadow-lg relative md:flex hidden overflow-hidden group justify-center align-center cursor-pointer">
-            {/* <img src={projects[index].coverImg} alt="Project card"/> */}
-            <SliderCard props = {projects[index-1<0?projects.length-1:index-1]} key = {projects[index-1<0?projects.length-1:index-1]} ></SliderCard>
-            <SliderCard className="w-[125%] h-auto " props = {projects[index]} key = {projects[index].id} ></SliderCard>
-            <SliderCard props = {projects[index+1>projects.length-1?0:index+1]} key = {projects[index+1>projects.length-1?0:index+1].id} ></SliderCard>
+                    <BsChevronCompactLeft onClick={prevCard} className="absolute hidden group-hover:block top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%] duration-500  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
+                    <BsChevronCompactRight onClick={nextCard} className="absolute hidden group-hover:block top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 -translate-x-0 -translate-y-[50%] duration-500 text-white rounded-full " size={30} ></BsChevronCompactRight>
 
-           <BsChevronCompactLeft onClick={prevCard} className="absolute hidden group-hover:block top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%] duration-500  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
-            <BsChevronCompactRight onClick={nextCard}  className="absolute hidden group-hover:block top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 -translate-x-0 -translate-y-[50%] duration-500 text-white rounded-full " size={30} ></BsChevronCompactRight>
-        </div>
-{/* Mobile View */}
-        <div className="md:hidden w-[80%] mx-auto relative bg-white shadow-lg p-8 flex overflow-hidden">
-            {/* <img src={projects[index].coverImg} alt="Project card"/> */}
-           
-            <SliderCard props = {projects[index]}  ></SliderCard>
-           
-           <BsChevronCompactLeft onClick={prevCard} className="absolute top-[50%] left-5 text-3xl  -translate-x-0 -translate-y-[50%]  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
-            <BsChevronCompactRight onClick={nextCard}  className="absolute top-[50%] right-5 text-3xl  -translate-x-0 -translate-y-[50%] cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactRight>
-        </div>
+
+                </div>
+                <div className="flex flex-row justify-center items-center mt-4 text-black/20">
+                    {
+
+                        projects.map((project,i) => (
+                          
+                            <RxDotFilled className={i===index?"text-black":''} key={i} onClick={()=>{goToSlide(i)}}></RxDotFilled>
+                        ))
+                    }
+                </div>
+
+            </div>
+            {/* Mobile View */}
+            <div className="md:hidden w-[80%] mx-auto  bg-white shadow-lg p-8 block overflow-hidden">
+                {/* <img src={projects[index].coverImg} alt="Project card"/> */}
+                <div className="relative flex">
+
+                <SliderCard props={projects[index]}  ></SliderCard>
+
+                <BsChevronCompactLeft onClick={prevCard} className="absolute top-[50%] left-1 text-3xl  -translate-x-0 -translate-y-[50%]  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
+                <BsChevronCompactRight onClick={nextCard} className="absolute top-[50%] right-1 text-3xl  -translate-x-0 -translate-y-[50%] cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactRight>
+              </div>
+              <div className="flex flex-row justify-center items-center mt-4 text-black/20 ">
+                    {
+
+                        projects.map((project, i) => (
+
+                            <RxDotFilled className={i===index?"text-black":""} key={i} onClick={()=>{goToSlide(i)}}></RxDotFilled>
+                            
+
+                        ))
+                    }
+                </div>
+
+            </div>
 
         </div>
     )
