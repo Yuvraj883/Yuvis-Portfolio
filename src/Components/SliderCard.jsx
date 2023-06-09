@@ -7,7 +7,7 @@ function SliderCard(props) {
         <>
             <div className="md:flex hidden flex-col w-2/3 m-4 shadow-md rounded-md p-4 bg-white">
                 <img src={props?.props?.coverImg} alt="Project Cover Img"
-                    className="h-auto w-auto" />
+                    className="h-48 w-96" />
                 <h1 className='font-semibold text-xl'>{props?.props?.title}</h1>
                 <p>
                     <b>Description: </b> {props?.props?.description}
