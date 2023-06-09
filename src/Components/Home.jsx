@@ -18,7 +18,7 @@ function Home() {
                         <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
                             <Typewriter
                                 words={[" a Front-End Developer", ' a Back-End Developer', ' a Full Stack Developer', ' Yuvraj Singh!!!']}
-                                loop={99999}
+                                loop={1}
                                 cursor
                                 cursorStyle='|'
                                 typeSpeed={70}
