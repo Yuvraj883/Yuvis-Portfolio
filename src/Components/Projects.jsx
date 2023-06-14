@@ -30,7 +30,7 @@ function Projects() {
             id: 2,
             coverImg: '../images/Diusburg.jpeg',
             title: 'Diusburg Landing Page',
-            description: 'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad..',
+            description: 'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad.',
             techstack: 'HTML, CSS',
             github: 'https://github.com/Diusburg/LandingPage',
             live: 'https://diusburg.github.io/LandingPage/'
