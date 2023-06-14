@@ -132,14 +132,15 @@ function Projects() {
      
        
         </div> */}
-            <div className="mx-auto bg-white p-6 shadow-lg md:block hidden overflow-hidden group cursor-pointer justify-center items-center w-[80%]">
-                <div className="flex relative justify-center align-center ">
-                    {/* <img src={projects[index].coverImg} alt="Project card"/> */}
-                    <SliderCard props={projects[index - 1 < 0 ? projects.length - 1 : index - 1]} key={projects[index - 1 < 0 ? projects.length - 1 : index - 1]} ></SliderCard>
-                    <SliderCard  props={projects[index]} key={projects[index].id} ></SliderCard>
-                    <SliderCard props={projects[index + 1 > projects.length - 1 ? 0 : index + 1]} key={projects[index + 1 > projects.length - 1 ? 0 : index + 1].id} ></SliderCard>
 
-                    <BsChevronCompactLeft onClick={prevCard} className="absolute hidden group-hover:block top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%] duration-500  cursor-pointer bg-black/20 text-white rounded-full " size={30} ></BsChevronCompactLeft>
+            <div className="mx-auto bg-white  p-6 shadow-lg md:block hidden  cursor-pointer justify-center items-center w-[80%]">
+                <div className="flex relative justify-center align-center p-6">
+                    {/* <img src={projects[index].coverImg} alt="Project card"/> */}
+                    <SliderCard centerCard='false' props={projects[index - 1 < 0 ? projects.length - 1 : index - 1]} key={projects[index - 1 < 0 ? projects.length - 1 : index - 1]} ></SliderCard>
+                    <SliderCard centerCard='true' props={projects[index]} key={projects[index].id} ></SliderCard>
+                    <SliderCard centerCard= 'false' props={projects[index + 1 > projects.length - 1 ? 0 : index + 1]} key={projects[index + 1 > projects.length - 1 ? 0 : index + 1].id} ></SliderCard>
+
+                    <BsChevronCompactLeft onClick={prevCard} className="absolute hidden group-hover:block top-[50%] left-5 text-3xl -translate-x-0 -translate-y-[50%] duration-500  cursor-pointer bg-black/20 text-red-500 z-1 rounded-full " size={30} ></BsChevronCompactLeft>
                     <BsChevronCompactRight onClick={nextCard} className="absolute hidden group-hover:block top-[50%] right-5 text-3xl  cursor-pointer bg-black/20 -translate-x-0 -translate-y-[50%] duration-500 text-white rounded-full " size={30} ></BsChevronCompactRight>
 
 
