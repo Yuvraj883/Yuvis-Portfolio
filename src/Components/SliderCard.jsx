@@ -1,16 +1,16 @@
 import { BsGithub } from 'react-icons/bs';
 import { RiExternalLinkFill } from 'react-icons/ri'
-function SliderCard(props) {
-
+function SliderCard(props, centerCard) {
+// console.log(props.centerCard);
 
     return (
         <>
-            <div className="md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-white">
+            <div className={props.centerCard==='true'?"md:flex hidden flex-col  w-[1/3] h-[125%] m-4 shadow-lg rounded-md p-4 bg-white" : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-white"}>
                 <div className='h-48 w-96 p-1 mx-auto'>  <img src={props?.props?.coverImg} alt="Project Cover Img"
                     className=" object-fit " />
                 </div>
                 <h1 className='font-semibold text-xl'>{props?.props?.title}</h1>
-                <p className='line-clamp-2'>
+                <p className={props.centerCard==='true'?'':'line-clamp-2'}>
                     <b>Description: </b> {props?.props?.description}
                 </p>
                 <p className='p-1'>
@@ -33,7 +33,7 @@ function SliderCard(props) {
                 <img src={props?.props?.coverImg} alt="Project Name"
                     className="h-48 w-auto" />
                 <h1 className='font-semibold text-xl'>{props.props.title}</h1>
-                <p>
+                <p className='line-clamp-2'>
                     <b>Description: </b> {props?.props?.description}
                 </p>
                 <p className='p-1'>
