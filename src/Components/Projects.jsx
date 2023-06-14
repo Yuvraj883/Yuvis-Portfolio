@@ -101,7 +101,7 @@ function Projects() {
         {
             id: 7,
             coverImg: '../images/TextTranslator.jpeg',
-            title: 'Task Manager',
+            title: 'Pirates speak',
             description: 'This site translates your texts into the pirates language using the "https://api.funtranslations.com/translate/minion.json" api.',
             techstack: 'HTML, CSS, JS, FetchAPI',
             github: 'https://github.com/Yuvraj883/Task-Manager',
@@ -156,7 +156,7 @@ function Projects() {
 
             </div>
             {/* Mobile View */}
-            <div className="md:hidden w-[80%] mx-auto  bg-white shadow-lg p-8 block overflow-hidden">
+            <div className="md:hidden w-[80%] mx-auto  bg-white shadow-lg p-8 block overflow-auto">
                 {/* <img src={projects[index].coverImg} alt="Project card"/> */}
                 <div className="relative flex">
 
