@@ -17,11 +17,11 @@ function Navbar() {
             <nav className="md:flex justify-between text-red-950  fixed w-screen hidden ">
                 <span className="m-2 p-2 font-extrabold font-serif text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline text-3xl" /> Dev-Yuvi</span>
                 <ul className="flex px-4 font-bold cursor-pointer">
-                    <Link to="home" className="m-2 p-2">Home</Link>
-                    <Link to="about" className="m-2 p-2">About Me</Link>
-                    <Link to="projects" className="m-2 p-2">Projects</Link>
-                    <Link  className="m-2 p-2">Blogs</Link>
-                    <Link to="contact" className="m-2 p-2">Contact</Link>
+                    <Link smooth={true} duration={300} to="home" className="m-2 p-2">Home</Link>
+                    <Link smooth={true} duration={300} to="about" className="m-2 p-2">About Me</Link>
+                    <Link  smooth={true} duration={300}to="projects" className="m-2 p-2">Projects</Link>
+                    <Link  smooth={true} duration={300} className="m-2 p-2">Blogs</Link>
+                    <Link  smooth={true} duration={300}to="contact" className="m-2 p-2">Contact</Link>
                 </ul>
 
             </nav>
@@ -40,15 +40,14 @@ function Navbar() {
                 <span className="m-2 p-2 font-extrabold font-serif text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline text-3xl" /> Dev-Yuvi</span>
 
                 <ul className="flex flex-col ml-auto px-4 font-bold cursor-pointer">
-                    <li className="m-2 border-b border-[#ebca95] p-2">Home</li>
-                    <li className="m-2 border-b border-[#ebca95] p-2">About Me</li>
-                    <li className="m-2 border-b border-[#ebca95] p-2">Projects</li>
-                    <li className="m-2 border-b border-[#ebca95] p-2">Blogs</li>
-                    <li className="m-2 p-2">Contact</li>
-                </ul>
-            </div>
+                    <Link to="home" smooth={true} duration={300} className="m-2 border-b border-[#ebca95] p-2">Home</Link>
+                    <Link to="about" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">About Me</Link>
+                    <Link to="projects" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Projects</Link>
+                    <Link to="" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Blogs</Link>
+                    <Link to="contact" smooth={true} duration={300}  className="m-2 p-2">Contact</Link>
+                    </ul>  </div>
 
         </>
     )
 }
-export default Navbar; 
+ export default Navbar; 
