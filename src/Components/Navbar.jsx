@@ -20,7 +20,7 @@ function Navbar() {
                     <Link smooth={true} duration={300} to="home" className="m-2 p-2">Home</Link>
                     <Link smooth={true} duration={300} to="about" className="m-2 p-2">About Me</Link>
                     <Link  smooth={true} duration={300}to="projects" className="m-2 p-2">Projects</Link>
-                    <Link  smooth={true} duration={300} className="m-2 p-2">Blogs</Link>
+                    {/* <Link  smooth={true} duration={300} className="m-2 p-2">Blogs</Link> */}
                     <Link  smooth={true} duration={300}to="contact" className="m-2 p-2">Contact</Link>
                 </ul>
 
@@ -43,7 +43,7 @@ function Navbar() {
                     <Link to="home" smooth={true} duration={300} className="m-2 border-b border-[#ebca95] p-2">Home</Link>
                     <Link to="about" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">About Me</Link>
                     <Link to="projects" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Projects</Link>
-                    <Link to="" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Blogs</Link>
+                    {/* <Link to="" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Blogs</Link> */}
                     <Link to="contact" smooth={true} duration={300}  className="m-2 p-2">Contact</Link>
                     </ul>  </div>
 
