@@ -2,6 +2,8 @@
 import { GiCrownOfThorns } from 'react-icons/gi'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { useState } from 'react';
+// import { Link } from 'react-router-dom';
+import {Link } from 'react-scroll';
 
 function Navbar() {
     const [nav, setNav] = useState(true);
@@ -15,11 +17,11 @@ function Navbar() {
             <nav className="md:flex justify-between text-red-950  fixed w-screen hidden ">
                 <span className="m-2 p-2 font-extrabold font-serif text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline text-3xl" /> Dev-Yuvi</span>
                 <ul className="flex px-4 font-bold cursor-pointer">
-                    <li className="m-2 p-2"><a href="#home">Home</a></li>
-                    <li className="m-2 p-2"><a href="#about">About Me</a></li>
-                    <li className="m-2 p-2"><a href="#projects">Projects</a></li>
-                    <li className="m-2 p-2">Blogs</li>
-                    <li className="m-2 p-2"><a href="#contact">Contact</a></li>
+                    <Link to="home" className="m-2 p-2">Home</Link>
+                    <Link to="about" className="m-2 p-2">About Me</Link>
+                    <Link to="projects" className="m-2 p-2">Projects</Link>
+                    <Link  className="m-2 p-2">Blogs</Link>
+                    <Link to="contact" className="m-2 p-2">Contact</Link>
                 </ul>
 
             </nav>
