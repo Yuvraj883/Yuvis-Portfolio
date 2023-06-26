@@ -8,7 +8,7 @@ function Home() {
     return (
         <>
             <div className="h-auto w-auto md:flex flex-col pt-20 hidden  ">
-                <div className="flex mx-auto w-[50%] justify-around mb-8 ">
+                <div className="flex mx-auto w-[50%] justify-between mb-8 ">
 
                     <div className='py-16 w-[65%] pr-4'>
                         <div>
@@ -36,7 +36,8 @@ function Home() {
                         </p>
                     </div>
                     <div>
-                        <img src={require('../assets/image3.jpeg')}
+                        {/* <img src={require('../assets/image3.jpeg')} */}
+                        <img src="../images/Yuvraj6.jpg"                       
                             className="h-64 w-auto rounded-full" alt="Yuvraj Singh" />
                     </div>
 
@@ -50,7 +51,8 @@ function Home() {
             {/* Mobile view  */}
             <div className='md:hidden flex flex-col jutify-center items-center p-4 m-4'>
                 <div>
-                    <img src={require('../assets/image3.jpeg')}
+                    {/* <img src={require('../assets/image3.jpeg')} */}
+                    <img src="../images/Yuvraj6.jpg"
                         className="h-64 w-auto rounded-full" alt="Yuvraj Singh" />
                 </div>
                 <div className='py-8 w-[65%] pr-4'>
