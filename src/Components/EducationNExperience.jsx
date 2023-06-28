@@ -40,7 +40,7 @@ const EducationNExperience = () => {
                                     <ul className="text-gray-500 p-2">
                                         <li className=" list-disc mx-0">WebDeveloper at GDSC MSIT.</li>
                                         <li className=" list-disc mx-0">Part of MSI(T) Football Team.</li>
-                                        <li className=" list-disc mx-0">Helped IT Department win Inter Department tournament while playing as the striker.</li>
+                                        <li className=" list-disc mx-0">Played as striker and helped the IT Department win the Inter-Department Football Tournament 2022-23.</li>
                                         <li className=" list-disc mx-0">Won several individual medals as well as relay race in athletics in MSI(T) sports meet.</li>
                                         <li className=" list-disc mx-0">Secured 7.4 CGPA (till 3rd Semester).</li>
 
