@@ -53,7 +53,7 @@ const EducationNExperience = () => {
                             <div className="relative h-24  my-8 p-0 ">
 
                                 <div className="bg-white p-4  text-black w-[40%] float-right mr-8 rounded-md ">
-                                    <div className="border-l-2  absolute left-[50%] border-solid border-black"></div>
+                                    <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black"></div>
                                     <div className="absolute w-[30px] h-[30px] top-[50%] rounded-full bg-black left-[49%]  "></div>
                                     <h1 className="font-bold text-2xl ">Ambedkar Institute of Technology | DSEU</h1>
                                     <h3 className="font-semibold text-gray-500">Diploma in Computer Engineering | 2019-2022</h3>
