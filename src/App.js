@@ -5,6 +5,7 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import { Element } from 'react-scroll';
+import EducationNExperience from './Components/EducationNExperience';
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import {Switch} from 'react-router';
@@ -12,7 +13,7 @@ import { Element } from 'react-scroll';
 function App() {
   return (
     <>
-      <div className="bg-[#f4f4f5] overflow-hidden">
+      <div className="bg-[#f4f4f5] overflow-hidden scroll-smooth">
         <Navbar></Navbar>
         <Element name="home">
           <Home></Home>
@@ -23,9 +24,13 @@ function App() {
         <Element name="projects">
           <Projects></Projects>
         </Element>
+        <Element name="Education">
+          <EducationNExperience></EducationNExperience>
+        </Element>
         <Element name="contact">
           <Contact></Contact>
         </Element>
+        
       </div>
 
 
