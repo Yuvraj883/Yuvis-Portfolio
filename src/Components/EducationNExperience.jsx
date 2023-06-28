@@ -17,8 +17,10 @@ const EducationNExperience = () => {
 
 
     return (
-        <>
+        <>  
             <div className="my-24 h-auto p-12">
+        <h1 className="text-3xl  text-center m-8">Education & Experience</h1>
+
                 <div className="flex flex-row justify-center items-center font-bold mb-8 rounded-md bg-white p-2 w-min mx-auto text-2xl">
                     <button onClick={handleEducation} className={education === "true" ? "m-2 px-8 py-2 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-8 py-2 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Education</button>
                     <button onClick={handleExperience} className={experience === "true" ? "m-2 px-8 py-2 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-8 py-2 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Experience</button>
@@ -40,7 +42,7 @@ const EducationNExperience = () => {
                                         <li className=" list-disc mx-0">Part of MSI(T) Football Team.</li>
                                         <li className=" list-disc mx-0">Helped IT Department win Inter Department tournament while playing as the striker.</li>
                                         <li className=" list-disc mx-0">Won several individual medals as well as relay race in athletics in MSI(T) sports meet.</li>
-                                        <li className=" list-disc mx-0">Secured 7.3 CGPA (till 3rd Semester).</li>
+                                        <li className=" list-disc mx-0">Secured 7.4 CGPA (till 3rd Semester).</li>
 
                                     </ul>
                                 </div>
@@ -59,7 +61,7 @@ const EducationNExperience = () => {
                                     <h3 className="font-semibold text-gray-500">Diploma in Computer Engineering | 2019-2022</h3>
                                     <ul className="text-gray-500 p-2">
                                         <li className=" list-disc mx-0">Secured 86.7% in diploma, 3rd rank in the Computer Engineering department.</li>
-                                        <li className=" list-disc mx-0">Did an internship at DSEU and got to interact with the then Deputy CM & Education Minister Manish Sisodiya.</li>
+                                        <li className=" list-disc mx-0">Did an internship at DSEU and got to interact with the then Deputy CM & Education Minister Shri Manish Sisodiya ji.</li>
                                         <li className=" list-disc mx-0">Been Class Representative for 5 semesters.</li>
 
                                     </ul>
