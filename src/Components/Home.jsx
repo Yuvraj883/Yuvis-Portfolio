@@ -12,7 +12,7 @@ function Home() {
 
                     <div className='py-16 w-[65%] pr-4'>
                         <div>
-                            <h3 className='text-xl font-semibold inline mt-4'>Hello <span className='inline text-xl'>&#128075;</span>	</h3>
+                            <h3 className='text-xl font-semibold inline mt-4'>Hello<img className='inline h-[2.75rem] pb-2' src="../images/waving-hand..gif" alt="waving hand"/> </h3>
                         </div>
                         <h1 className='inline text-lg font-semibold'>I am &nbsp; </h1>
                         <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
@@ -57,7 +57,7 @@ function Home() {
                 </div>
                 <div className='py-8 w-[65%] pr-4'>
                     <div>
-                        <h3 className='text-xl font-semibold inline mt-4'>Hello <span className='inline text-xl'>&#128075;</span>	</h3>
+                        <h3 className='text-xl font-semibold inline mt-4'>Hello <img className='inline h-[2.75rem] pb-2' src="../images/waving-hand..gif" alt="waving hand"/> </h3>
                     </div>
                     <h1 className='inline text-lg font-semibold'>I am &nbsp; </h1>
                     <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
