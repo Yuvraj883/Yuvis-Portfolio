@@ -19,9 +19,9 @@ function Navbar() {
                 <ul className="flex px-4 font-bold cursor-pointer">
                     <Link smooth={true} duration={300} to="home" className="m-2 p-2">Home</Link>
                     <Link smooth={true} duration={300} to="about" className="m-2 p-2">About Me</Link>
-                    <Link  smooth={true} duration={300}to="projects" className="m-2 p-2">Projects</Link>
-                    {/* <Link  smooth={true} duration={300} className="m-2 p-2">Blogs</Link> */}
-                    <Link  smooth={true} duration={300}to="contact" className="m-2 p-2">Contact</Link>
+                    <Link  smooth={true} duration={300} to="projects" className="m-2 p-2">Projects</Link>
+                    <Link  smooth={true} duration={300} to="experience" className="m-2 p-2">Experience</Link>
+                    <Link  smooth={true} duration={300} to="contact" className="m-2 p-2">Contact</Link>
                 </ul>
 
             </nav>
