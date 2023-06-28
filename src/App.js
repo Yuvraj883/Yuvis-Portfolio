@@ -24,8 +24,8 @@ function App() {
         <Element name="projects">
           <Projects></Projects>
         </Element>
-        <Element name="Education">
-          <EducationNExperience></EducationNExperience>
+        <Element name="experience">
+          <EducationNExperience className="hidden md:block"></EducationNExperience>
         </Element>
         <Element name="contact">
           <Contact></Contact>
