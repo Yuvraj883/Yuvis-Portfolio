@@ -30,9 +30,9 @@ const EducationNExperience = () => {
                         <div className="relative h-24 m-0 p-0 ">
                             <div>
                                
-                                <div className="bg-white p-4 text-black w-[40%] rounded-md float-left ">
-                                <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black "></div>
-                                <div className="absolute w-[30px] h-[30px] top-[50%] rounded-full bg-black left-[49%]  "></div>
+                                <div className="bg-white p-4 text-black w-[40%] rounded-md ml-8 float-left ">
+                                <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black"></div>
+                                <div className="absolute  w-[30px] h-[30px] top-[50%] rounded-full bg-black left-[49%]  "></div>
                                     <h1 className="font-bold text-2xl ">Maharaja Surajmal Institute of Technology | GGSIPU</h1>
                                     <h3 className="font-semibold text-gray-500">BTech in Information Technology | 2022-2025</h3>
 
@@ -41,10 +41,11 @@ const EducationNExperience = () => {
 
 
                         </div>
-                        <div className="relative h-24 flex flex-col   my-8 p-0 ">
-                            <div>
+                        <div className="">
+
+                        <div className="relative h-24  my-8 p-0 ">
                                
-                                <div className="bg-white p-4 text-black w-[40%] float-right rounded-md ">
+                                <div className="bg-white p-4  text-black w-[40%] float-right mr-8 rounded-md ">
                                 <div className="border-l-2  absolute left-[50%] border-solid border-black"></div>
                                 <div className="absolute w-[30px] h-[30px] top-[50%] rounded-full bg-black left-[49%]  "></div>
                                     <h1 className="font-bold text-2xl ">Ambedkar Institute of Technology | DSEU</h1>
@@ -62,10 +63,10 @@ const EducationNExperience = () => {
                     experience ==="true" &&
                     <div className="h-auto">
                         <div className="relative h-24 m-0 p-0 ">
-                            <div>
+                            <div className="flex flex-col justify-center">
                             <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black "></div>
                                 <div className="absolute w-[30px] h-[30px] top-[80%] my-auto rounded-full bg-black left-[49%]  "></div>
-                                <div className="bg-white p-4 text-black w-[40%] rounded-md float-left ">
+                                <div className="bg-white p-4 text-black w-[40%] rounded-md ml-8 float-left ">
                                
                                     <h1 className="font-bold text-2xl ">A2D Innovations Pvt. Ltd.</h1>
                                     <h3 className="font-semibold text-gray-600">VueJS Developer Intern | February 2022 - April 2022 | Remote</h3>
@@ -84,7 +85,7 @@ const EducationNExperience = () => {
                             <div>
                             <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black"></div>
                                 <div className="absolute w-[30px] h-[30px] top-[70%] rounded-full bg-black left-[49%]  "></div>
-                                <div className="bg-white p-4 text-black w-[40%] float-right rounded-md ">
+                                <div className="bg-white p-4 text-black w-[40%] float-right mr-5 rounded-md ">
                                
                                     <h1 className="font-bold text-2xl ">Delhi Skill & Entrepreneurship University</h1>
                                     <h3 className="font-semibold text-gray-600">Intern | August 2021 - September 2021 | New Delhi</h3>
