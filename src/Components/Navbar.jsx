@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="md:flex justify-between text-red-950  fixed w-screen hidden ">
+            <nav className="md:flex justify-between text-red-950  fixed w-screen hidden drop-blur bg-white z-10">
                 <span className="m-2 p-2 font-extrabold font-serif text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline text-3xl" /> Dev-Yuvi</span>
                 <ul className="flex px-4 font-bold cursor-pointer">
                     <Link smooth={true} duration={300} to="home" className="m-2 p-2">Home</Link>
