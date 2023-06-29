@@ -31,7 +31,7 @@ function Navbar() {
                 <span className="m-2 p-2 font-extrabold font-serif  text-xl text-[#E5BA73]"><GiCrownOfThorns className="inline  text-3xl" /> Dev-Yuvi</span>
                 <div>
                     {
-                        nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />
+                        nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose className='top-5 right-2 fixed ' size={20} />
                     }
                 </div>
 
@@ -43,7 +43,7 @@ function Navbar() {
                     <Link to="home" smooth={true} duration={300} className="m-2 border-b border-[#ebca95] p-2">Home</Link>
                     <Link to="about" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">About Me</Link>
                     <Link to="projects" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Projects</Link>
-                    {/* <Link to="" smooth={true} duration={300}  className="m-2 border-b border-[#ebca95] p-2">Blogs</Link> */}
+                    <Link to="experience" smooth={true} duration={300}   className="m-2 border-b border-[#ebca95] p-2">Experience</Link>
                     <Link to="contact" smooth={true} duration={300}  className="m-2 p-2">Contact</Link>
                     </ul>  </div>
 
