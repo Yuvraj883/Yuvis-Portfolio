@@ -32,7 +32,7 @@ const EducationNExperience = () => {
                         <div className="relative h-24 m-0 p-0 ">
                             <div>
 
-                                <div className="bg-white p-4 text-black w-[40%] rounded-md ml-8 float-left ">
+                                <div className="bg-white p-4 text-black w-[40%] rounded-md ml-8 float-left shadow-xl">
                                     <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black"></div>
                                     <div className="absolute  w-[30px] h-[30px] top-[50%] rounded-full bg-black left-[49%]  "></div>
                                     <h1 className="font-bold text-2xl ">Maharaja Surajmal Institute of Technology | GGSIPU</h1>
@@ -54,7 +54,7 @@ const EducationNExperience = () => {
 
                             <div className="relative h-24  my-8 p-0 ">
 
-                                <div className="bg-white p-4  text-black w-[40%] float-right mr-8 rounded-md ">
+                                <div className="bg-white p-4  text-black w-[40%] float-right mr-8 rounded-md shadow-xl ">
                                     <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black"></div>
                                     <div className="absolute w-[30px] h-[30px] top-[50%] rounded-full bg-black left-[49%]  "></div>
                                     <h1 className="font-bold text-2xl ">Ambedkar Institute of Technology | DSEU</h1>
@@ -79,7 +79,7 @@ const EducationNExperience = () => {
                     <div className="h-auto">
                         <div className="relative h-24 m-0 p-0 ">
                             <div className="flex flex-col justify-center">
-                                <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black "></div>
+                                <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black shadow-xl "></div>
                                 <div className="absolute w-[30px] h-[30px] top-[80%] my-auto rounded-full bg-black left-[49%]  "></div>
                                 <div className="bg-white p-4 text-black w-[40%] rounded-md ml-8 float-left ">
 
@@ -98,7 +98,7 @@ const EducationNExperience = () => {
                         </div>
                         <div className="relative h-24  m-8 p-0 ">
                             <div>
-                                <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black"></div>
+                                <div className="border-l-2 h-56 absolute left-[50%] border-solid border-black shadow-xl"></div>
                                 <div className="absolute w-[30px] h-[30px] top-[70%] rounded-full bg-black left-[49%]  "></div>
                                 <div className="bg-white p-4 text-black w-[40%] float-right mr-5 rounded-md ">
 
@@ -130,7 +130,7 @@ const EducationNExperience = () => {
                     education ==="true" &&
                     <div className="flex border-l-4 border-black h-108 flex-col ">
 
-                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative ">
+                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative shadow-xl ">
                             <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
@@ -147,7 +147,7 @@ const EducationNExperience = () => {
 
                         </div>
 
-                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative mt-8">
+                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative shadow-xl mt-8">
                             <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
@@ -171,7 +171,7 @@ const EducationNExperience = () => {
                     experience ==="true" &&
                     <div className="flex border-l-4 border-black h-108 flex-col ">
 
-                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative ">
+                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative shadow-xl ">
                             <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
@@ -185,7 +185,7 @@ const EducationNExperience = () => {
 
                         </div>
 
-                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative mt-8">
+                        <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative shadow-xl mt-8">
                             <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
