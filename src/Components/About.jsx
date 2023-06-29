@@ -21,7 +21,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <a href={require("../assets/image2.jpg")} className=" w-4/5" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
+                <a href={require("../assets/Yuvraj-Resume.pdf")} className=" w-4/5" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
 
             </div>
 
@@ -45,7 +45,7 @@ function About() {
 
                         </p>
 
-                        <a href={require("../assets/image2.jpg")} className="flex justify-center items-center mt-4" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
+                        <a href={require("../assets/Yuvraj-Resume.pdf")} className="flex justify-center items-center mt-4" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto p-6 w-3/5  ">Download Resume</button></a>
 
                     </div>
                 </div>
