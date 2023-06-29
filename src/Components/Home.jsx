@@ -60,7 +60,7 @@ function Home() {
                         <h3 className='text-xl font-semibold inline mt-4'>Hello <img className='inline h-[2.75rem] pb-2' src="../images/waving-hand..gif" alt="waving hand"/> , </h3>
                     </div>
                     <h1 className='inline text-lg font-semibold'>I am &nbsp; </h1>
-                    <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
+                    <span className='text-[#E5BA73] font-extrabold text-3xl h-16 mb-8 '>
                         <Typewriter
                             words={[" a Front-End Developer", ' a Back-End Developer', ' a Full Stack Developer', ' Yuvraj Singh!!!']}
                             loop={1}
