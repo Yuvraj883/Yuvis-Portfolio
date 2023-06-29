@@ -57,7 +57,7 @@ function Home() {
                 </div>
                 <div className='py-8 w-[65%] pr-4'>
                     <div>
-                        <h3 className='text-xl font-semibold inline mt-4'>Hello <img className='inline h-[2.75rem] pb-2' src="../images/waving-hand..gif" alt="waving hand"/> </h3>
+                        <h3 className='text-xl font-semibold inline mt-4'>Hello <img className='inline h-[2.75rem] pb-2' src="../images/waving-hand..gif" alt="waving hand"/> , </h3>
                     </div>
                     <h1 className='inline text-lg font-semibold'>I am &nbsp; </h1>
                     <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
@@ -70,12 +70,12 @@ function Home() {
                             deleteSpeed={50}
                             delaySpeed={1000}
                         /></span>
-                    <p className="py-8 px-2 inline"><br />
+                    <p className="pt-8 pb-4 mb-0 mt-4 px-2 inline"><br />
                         based in <b>New Delhi, India</b><IoPinSharp className='text-red-700 inline font-bold' />.
 
 
                     </p>
-                    <p className='flex my-2 '>
+                    <p className='flex my-0 '>
                         <a href="https://www.linkedin.com/in/yuvraj-singh-2942781a3/" className='inline p-1 text-3xl'><FaLinkedin /></a>
                         <a href="https://github.com/Yuvraj883" className='inline p-1 text-3xl'><FaGithubSquare /> </a>
                     </p>
