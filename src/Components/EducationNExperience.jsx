@@ -123,8 +123,8 @@ const EducationNExperience = () => {
                 <h1 className="text-3xl  text-center m-8">Education & Experience</h1>
 
                 <div className="flex flex-row justify-center items-center font-bold mb-8 rounded-md bg-white p-1 w-min mx-auto text-xl">
-                    <button onClick={handleEducation} className={education === "true" ? "m-2 px-4 py-1 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-4 py-1 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Education</button>
-                    <button onClick={handleExperience} className={experience === "true" ? "m-2 px-4 py-1 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-4 py-1 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Experience</button>
+                    <button onClick={handleEducation} className={education === "true" ? "m-2 px-2 py-1 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-2 py-1 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Education</button>
+                    <button onClick={handleExperience} className={experience === "true" ? "m-2 px-2 py-1 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-2 py-1 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Experience</button>
                 </div>
                 {
                     education ==="true" &&
