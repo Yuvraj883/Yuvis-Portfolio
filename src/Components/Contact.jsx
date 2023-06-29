@@ -50,7 +50,7 @@ function Contact() {
                     </div>
                     <div className='p-8 w-[50%]'>
                         <h3 className='font-bolder text-2xl text-slate-500'>Get in touch</h3>
-                        <p className='w-4/5  text-slate-500 my-4 font-semibold'>My inbox is always open, wheather you have a queston, project idea or just want to say hello,
+                        <p className='w-4/5  text-slate-500 my-4 font-semibold'>My inbox is always open, whether you have a queston, project idea or just want to say hello,
                             I will try my best to get back to you!!
                         </p>
                         <form ref={form} className=" flex-col my-4 " onSubmit={sendEmail}>
@@ -74,7 +74,7 @@ function Contact() {
                     </div>
                     <div className='p-2'>
                         <h3 className='font-bolder text-2xl text-slate-500'>Get in touch</h3>
-                        <p className='  text-slate-500 my-1 font-semibold'>My inbox is always open, wheather you have a queston, project idea or just want to say hello,
+                        <p className='  text-slate-500 my-1 font-semibold'>My inbox is always open, whether you have a queston, project idea or just want to say hello,
                             I will try my best to get back to you!!
                         </p>
                         <form ref={form} className=" flex-col my-4 " onSubmit={sendEmail}>
