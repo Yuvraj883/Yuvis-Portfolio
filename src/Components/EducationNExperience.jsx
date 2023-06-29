@@ -119,19 +119,19 @@ const EducationNExperience = () => {
                 }
             </div>
             {/* Small screen  view */}
-            <div className="my-24 h-auto  md:hidden block">
+            <div className="my-24 h-auto p-6 md:hidden block">
                 <h1 className="text-3xl  text-center m-8">Education & Experience</h1>
 
-                <div className="flex flex-row justify-center items-center font-bold mb-8 rounded-md bg-white p-2 w-min mx-auto text-xl">
-                    <button onClick={handleEducation} className={education === "true" ? "m-2 px-8 py-2 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-8 py-2 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Education</button>
-                    <button onClick={handleExperience} className={experience === "true" ? "m-2 px-8 py-2 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-8 py-2 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Experience</button>
+                <div className="flex flex-row justify-center items-center font-bold mb-8 rounded-md bg-white p-1 w-min mx-auto text-xl">
+                    <button onClick={handleEducation} className={education === "true" ? "m-2 px-4 py-1 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-4 py-1 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Education</button>
+                    <button onClick={handleExperience} className={experience === "true" ? "m-2 px-4 py-1 bg-[#E5BA73] rounded-md cursor-pointer text-white text-2xl" : "m-2 px-4 py-1 bg-white rounded-md cursor-pointer text-black hover:bg-[#f1f5f9]"}>Experience</button>
                 </div>
                 {
                     education ==="true" &&
                     <div className="flex border-l-4 border-black h-108 flex-col ">
 
                         <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative ">
-                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-15%] top-[50%]  "></div>
+                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
                             <h1 className="font-bold text-xl ">Maharaja Surajmal Institute of Technology | GGSIPU</h1>
@@ -148,7 +148,7 @@ const EducationNExperience = () => {
                         </div>
 
                         <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative mt-8">
-                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-15%] top-[50%]  "></div>
+                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
                             <h1 className="font-bold text-xl ">Ambedkar Institute of Technology | DSEU</h1>
@@ -172,7 +172,7 @@ const EducationNExperience = () => {
                     <div className="flex border-l-4 border-black h-108 flex-col ">
 
                         <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative ">
-                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-15%] top-[50%]  "></div>
+                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
                             <h1 className="font-bold text-xl ">A2D Innovations Pvt. Ltd.</h1>
@@ -186,7 +186,7 @@ const EducationNExperience = () => {
                         </div>
 
                         <div className="bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative mt-8">
-                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-15%] top-[50%]  "></div>
+                            <div className="absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  "></div>
 
 
                             <h1 className="font-bold text-xl ">Delhi Skill & Entrepreneurship University</h1>
