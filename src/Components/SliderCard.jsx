@@ -5,7 +5,7 @@ function SliderCard(props, centerCard) {
 
     return (
         <>
-            <div className={props.centerCard==='true'?"md:flex hidden flex-col  w-auto h-[125%] m-4  shadow-2xl rounded-md p-4 bg-white" : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-white"}>
+            <div className={props.centerCard==='true'?"md:flex hidden flex-col  w-auto  m-4  shadow-2xl rounded-md p-4 bg-white" : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-white"}>
                 <div className='h-48 w-96  p-1 mx-auto'>  <img src={props?.props?.coverImg} alt="Project Cover Img"
                     className=" object-fit " />
                 </div>
