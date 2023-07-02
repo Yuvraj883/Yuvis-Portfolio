@@ -1,17 +1,6 @@
 const projects = [
-
     {
-        id: 2,
-        coverImg: '../images/Diusburg.jpeg',
-        title: 'Diusburg Landing Page',
-        description: 'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad.',
-        techstack: 'HTML, CSS',
-        github: 'https://github.com/Diusburg/LandingPage',
-        live: 'https://diusburg.github.io/LandingPage/'
-
-    },
-    {
-        id: 10,
+        id: 11,
         coverImg: '../images/cryptoTracker.jpeg',
         title: 'Crypto Tracker',
         description: 'This site lists the prices and other details of some of the most popular cryptos, also has the search functionality.',
@@ -20,9 +9,31 @@ const projects = [
         live: 'https://yuvis-crypto-tracker.netlify.app/'
 
     },
-   
+    {
+        id: 10,
+        coverImg: '../images/Nuloyal.jpeg',
+        title: 'Nuloyal',
+        description: 'Nuloyal clone (Large screen view only).',
+        techstack: 'ReactJs, React-router, CSS',
+        github: 'https://github.com/Yuvraj883/Nuloyol',
+        live: 'https://nuloyal.netlify.app/'
+
+    },
+
     {
         id: 9,
+        coverImg: '../images/Diusburg.jpeg',
+        title: 'Diusburg Landing Page',
+        description: 'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad.',
+        techstack: 'HTML, CSS',
+        github: 'https://github.com/Diusburg/LandingPage',
+        live: 'https://diusburg.github.io/LandingPage/'
+
+    },
+    
+   
+    {
+        id: 8,
         coverImg: '../images/Portfolio.jpeg',
         title: 'Dummy Portfolio',
         description: 'Made this site while learning HTML and CSS.',
@@ -32,7 +43,7 @@ const projects = [
 
     },
     {
-        id: 5,
+        id: 7,
         coverImg: '../images/RealEstate.jpeg',
         title: 'Real Estate Site Landing Page',
         description: 'It is a landing page for some real-estate site, made as part of an assignment.',
@@ -43,7 +54,7 @@ const projects = [
     },
 
     {
-        id: 1,
+        id: 6,
         coverImg: '../images/whiteBoard.jpeg',
         title: 'White Board',
         description: 'It is a white board made using Canvas API, can be used for teaching students by drawing shapes and figures.',
@@ -54,7 +65,7 @@ const projects = [
     },
 
     {
-        id: 3,
+        id: 5,
         coverImg: '../images/TextToSpeech.jpeg',
         title: 'Text To Speech Convertor',
         description: 'This is a text to speech convertor made using the JS SpeechSynthesis api.',
@@ -75,7 +86,7 @@ const projects = [
     },
 
     {
-        id: 6,
+        id: 3,
         coverImg: '../images/TaskManager.jpeg',
         title: 'Task Manager',
         description: 'It is a practice website made while learning VueJS, it usage the local storage of the browser to store data.',
@@ -84,7 +95,7 @@ const projects = [
         live: 'https://github.com/Yuvraj883/Task-Manager'
     },
     {
-        id: 7,
+        id: 2,
         coverImg: '../images/TextTranslator.jpeg',
         title: 'Pirates speak',
         description: 'This site translates your texts into the pirates language using the "https://api.funtranslations.com/translate/minion.json" api.',
@@ -92,8 +103,9 @@ const projects = [
         github: 'https://github.com/Yuvraj883/Task-Manager',
         live: 'https://github.com/Yuvraj883/Task-Manager'
 
-    }, {
-        id: 8,
+    },
+     {
+        id: 1,
         coverImg: '../images/WebTemplate.jpeg',
         title: 'ThemeForest template clone',
         description: 'It is a practice site made using HTML, CSS, Bootstrap and Unsplash images',
