@@ -13,8 +13,8 @@ const projects = [
         id: 10,
         coverImg: '../images/Nuloyal.jpeg',
         title: 'Nuloyal',
-        description: 'Nuloyal clone (Large screen view only).',
-        techstack: 'ReactJs, React-router, CSS',
+        description: 'Design copied from figma (Large screen view only).',
+        techstack: 'ReactJs, React-Router-Dom, CSS',
         github: 'https://github.com/Yuvraj883/Nuloyol',
         live: 'https://nuloyal.netlify.app/'
 
