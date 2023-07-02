@@ -60,7 +60,7 @@ const EducationNExperience = () => {
                                     <h1 className="font-bold text-2xl ">Ambedkar Institute of Technology | DSEU</h1>
                                     <h3 className="font-semibold text-gray-500">Diploma in Computer Engineering | 2019-2022</h3>
                                     <ul className="text-gray-500 p-2">
-                                        <li className=" list-disc mx-0">Secured 86.7% in diploma, 3rd rank in the Computer Engineering department.</li>
+                                        <li className=" list-disc mx-0">Secured 85.7% in diploma, 3rd rank in the Computer Engineering department.</li>
                                         <li className=" list-disc mx-0">Did an internship at DSEU and got to interact with the then Deputy CM & Education Minister Shri Manish Sisodiya ji.</li>
                                         <li className=" list-disc mx-0">Been Class Representative for 5 semesters.</li>
 
@@ -155,7 +155,7 @@ const EducationNExperience = () => {
                             <h3 className="font-semibold text-gray-600">Diploma in Computer Engineering | 2019-2022</h3>
 
                             <ul className="text-gray-500 p-2">
-                                <li className=" list-disc mx-0">Secured 86.7% in diploma, 3rd rank in the Computer Engineering department.</li>
+                                <li className=" list-disc mx-0">Secured 85.7% in diploma, 3rd rank in the Computer Engineering department.</li>
                                 <li className=" list-disc mx-0">Did an internship at DSEU and got to interact with the then Deputy CM & Education Minister Shri Manish Sisodiya ji.</li>
                                 <li className=" list-disc mx-0">Been Class Representative for 5 semesters.</li>
 
