@@ -14,7 +14,7 @@ function SliderCard(props, centerCard) {
                     <b>Description: </b> {props?.props?.description}
                 </p>
                 <p className='p-1 text-gray-500'>
-                    <b>Tech Stack: </b> {props?.props?.techstack}
+                    <b className='text-gray-600'>Tech Stack: </b> {props?.props?.techstack}
                 </p>
                 <div className='flex '>
                     <a href={props?.props?.github}
@@ -32,12 +32,12 @@ function SliderCard(props, centerCard) {
             <div className="md:hidden m-auto flex flex-col w-[90%]  shadow-md rounded-md p-2 bg-white">
                 <img src={props?.props?.coverImg} alt="Project Name"
                     className="h-48 w-auto" />
-                <h1 className='font-semibold text-xl'>{props.props.title}</h1>
-                <p className='line-clamp-2'>
-                    <b>Description: </b> {props?.props?.description}
+                <h1 className='font-semibold text-xl  text-gray-700'>{props.props.title}</h1>
+                <p className='line-clamp-2 text-gray-600'>
+                    <b >Description: </b> {props?.props?.description}
                 </p>
-                <p className='p-1'>
-                    <b>Tech Stack: </b> {props?.props?.techstack}
+                <p className='p-1 text-gray-500'>
+                    <b className='text-gray-600'>Tech Stack: </b> {props?.props?.techstack}
                 </p>
                 <div className='flex '>
                     <a href={props?.props?.github}
