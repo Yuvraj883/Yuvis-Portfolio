@@ -63,7 +63,7 @@ function Contact() {
                 </div>
 
             </div>
-
+{/* Mobile View  */}
             <div className="md:hidden flex flex-col items-center bg-white w-[90%] shadow-lg m-auto py-4 ">
                 <h1 className='text-3xl font-bolder'>Contact Me</h1>
                 {values.from_name}{values.from_email}
@@ -78,10 +78,10 @@ function Contact() {
                             I will try my best to get back to you!!
                         </p>
                         <form ref={form} className=" flex-col my-4 " onSubmit={sendEmail}>
-                            <input value={values.from_name} onChange={onChange} name='from_name' type='text' required placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5" />
-                            <input value={values.from_email} onChange={onChange} name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-4/5" />
-                            <textarea value={values.message} onChange={onChange} name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-4/5 h-32"></textarea>
-                            <button type='submit' className='bg-blue-500 block  px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>{btn_text}</button>
+                            <input value={values.from_name} onChange={onChange} name='from_name' type='text' required placeholder="Full Name*" className="block bg-slate-50 p-2 text-lg m-2 w-[95%]" />
+                            <input value={values.from_email} onChange={onChange} name='from_email' type='email' required placeholder="Email*" className="block bg-slate-50 p-2 text-lg m-2 w-[95%]" />
+                            <textarea value={values.message} onChange={onChange} name='message' type='text' required placeholder="Message*" className="bg-slate-50 text-lg p-2 m-2 w-[95%] h-32"></textarea>
+                            <button type='submit' className='bg-blue-500 block float-right px-6 font-bold text-white mx-2 py-2 rounded-md mt-2'>{btn_text}</button>
                         </form>
                     </div>
                 </div>
