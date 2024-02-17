@@ -1,4 +1,13 @@
 const projects = [
+    {id:12,
+     coverImg: '../images/easilyFamous.jpeg',
+     title:'easilyfamous.com',
+     description: 'It uses a service to allow user to get 10 free likes on a instagram post once every 6 hrs.',
+     techstack: 'ReactJs, TailwindCSS, NodeJS, Google Analytics', 
+     github: 'https://github.com/Yuvraj883/easily-famous',
+     live:'https://easilyfamous.com/'
+
+    },
     {
         id: 11,
         coverImg: '../images/cryptoTracker.jpeg',
