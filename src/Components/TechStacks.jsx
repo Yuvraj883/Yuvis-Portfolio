@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaHtml5, FaReact, FaCss3Alt, FaAngular, FaVuejs, FaNodeJs } from 'react-icons/fa';
-import { SiJavascript, SiTailwindcss, SiBootstrap, SiMongodb } from 'react-icons/si';
+import { SiJavascript, SiTailwindcss, SiBootstrap, SiMongodb, SiMui } from 'react-icons/si';
 
 
 function TechStacks() {
@@ -10,15 +10,15 @@ function TechStacks() {
 
     // function setFrontEnd(){
     //     setBackEnd(false);
-    //     setOthers(false); 
+    //     setOthers(false);
     // }
     // function setBackEnd(){
     //     setFrontEnd(false);
-    //     setOthers(false); 
+    //     setOthers(false);
     // }
     // function setOthers(){
     //     setBackEnd(false);
-    //     setFrontEnd(false); 
+    //     setFrontEnd(false);
     // }
 
     return (
@@ -87,6 +87,13 @@ function TechStacks() {
                             <p className='font-semibold text-xl text-center'>Tailwind CSS</p>
                         </div>
                         <div>
+                            <div className='rounded-full m-6 bg-gray-50 p-6 '>
+                                <SiMui className='text-8xl text-blue-400 bg-blue-50 ' />
+
+                            </div>
+                            <p className='font-semibold text-xl text-center'>MUI</p>
+                        </div>
+                        <div>
                             <div className='rounded-full m-6 bg-purple-50 p-6 '>
                                 <SiBootstrap className='text-8xl text-purple-400' />
 
@@ -105,7 +112,7 @@ function TechStacks() {
                         <div>
                             <div className='rounded-full m-6 bg-green-50 p-6 '>
                             {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
-                               <FaNodeJs className='text-8xl text-green-400 '/> 
+                               <FaNodeJs className='text-8xl text-green-400 '/>
                             </div>
                             <p className='font-semibold text-xl text-center'>NodeJs</p>
 
@@ -267,7 +274,7 @@ function TechStacks() {
                         <div>
                             <div className='rounded-full m-4 bg-green-50 p-2 '>
                             {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
-                               <FaNodeJs className='text-6xl m-auto text-green-400 '/> 
+                               <FaNodeJs className='text-6xl m-auto text-green-400 '/>
                             </div>
                             <p className='font-semibold text-lg text-center'>NodeJs</p>
 
@@ -351,4 +358,4 @@ function TechStacks() {
         </>
     )
 }
-export default TechStacks; 
+export default TechStacks;
