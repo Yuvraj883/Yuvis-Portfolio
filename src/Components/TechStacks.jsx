@@ -328,9 +328,9 @@ function TechStacks() {
             </div>
             <div>
               <div className='rounded-full m-6 bg-gray-50 p-6 '>
-                <SiMui className='text-8xl text-blue-400 bg-blue-50 ' />
+                <SiMui className='text-6xl text-blue-400 bg-blue-50 ' />
               </div>
-              <p className='font-semibold text-xl text-center'>MUI</p>
+              <p className='font-semibold text-lg text-center'>MUI</p>
             </div>
             <div>
               <div className='rounded-full m-2 bg-purple-50 p-2 '>
