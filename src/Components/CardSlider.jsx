@@ -16,11 +16,21 @@ const CardSlider = ()=>{
 
   return(
     <>
-    <div className="bg-white w-[80vw] m-auto ">
+    <div className="bg-white w-[80vw] m-auto hidden">
     <Slider {...settings}>
     {
       projects.map((project)=>(
-        <NewCard project={project}/>
+        <NewCard project={project} key={project.id}/>
+      ))
+    }
+
+    </Slider>
+    </div>
+    <div className="bg-white w-[80vw] m-auto hidden">
+    <Slider {...settings}>
+    {
+      projects.map((project)=>(
+        <NewCard project={project} key={project.id}/>
       ))
     }
 

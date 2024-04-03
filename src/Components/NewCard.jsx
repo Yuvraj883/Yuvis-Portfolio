@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 export default function NewCard(props) {
   return (
-    <Card sx={{ width: 345,height:350, position:"relative", margin:10, boxShadow: "10px 10px 10px gray", }}>
+    <Card sx={{zIndex:10, width: 345,height:350, position:"relative", margin:10, boxShadow: "10px 10px 10px gray", }}>
       <CardMedia
         component="img"
         alt={props?.project?.title}

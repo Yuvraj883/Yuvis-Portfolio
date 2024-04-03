@@ -4,7 +4,7 @@ import { RiExternalLinkFill } from 'react-icons/ri';
 function SliderCard(props, centerCard) {
     return (
         <>
-            <div className={props.centerCard === 'true' ? "md:flex hidden flex-col w-auto m-4 shadow-2xl rounded-md p-4 bg-white" : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-white"}>
+            <div className={props.centerCard === 'true' ? "md:flex hidden flex-col w-auto m-4 shadow-2xl rounded-md p-4 bg-white " : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-[#f4f4f5] "}>
                 <div className='h-48 w-96 p-1 mx-auto overflow-hidden'>
                     <img src={props?.props?.coverImg} alt="Project Cover Img" className="object-cover h-full w-full" />
                 </div>

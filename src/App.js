@@ -6,6 +6,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import { Element } from 'react-scroll';
 import EducationNExperience from './Components/EducationNExperience';
+import CardSlider from './Components/CardSlider';
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import {Switch} from 'react-router';
@@ -20,6 +21,7 @@ function App() {
         </Element>
         <Element name="about">
           <About></About>
+          <CardSlider/>
         </Element>
         <Element name="projects">
           <Projects></Projects>
@@ -30,7 +32,7 @@ function App() {
         <Element name="contact">
           <Contact></Contact>
         </Element>
-        
+
       </div>
 
 
