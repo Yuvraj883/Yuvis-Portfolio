@@ -5,14 +5,14 @@ function SliderCard(props, centerCard) {
     return (
         <>
             <div className={props.centerCard === 'true' ? "md:flex hidden flex-col w-auto m-4 shadow-2xl rounded-md p-4 bg-white" : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-white"}>
-                <div className='h-48 w-96 p-1 mx-auto overflow-hidden'>  
+                <div className='h-48 w-96 p-1 mx-auto overflow-hidden'>
                     <img src={props?.props?.coverImg} alt="Project Cover Img" className="object-cover h-full w-full" />
                 </div>
                 <h1 className='font-semibold text-xl text-gray-700'>{props?.props?.title}</h1>
-                <p className={props.centerCard === 'true' ? 'text-gray-600' : 'line-clamp-2 text-gray-600 overflow-hidden'}>
+                <p className={props.centerCard === 'true' ? 'text-gray-600 h-12 m-1 overflow-hidden line-clamp-2' : 'line-clamp-2 m-1  text-gray-600 h-12 overflow-hidden'}>
                     <b>Description: </b> {props?.props?.description}
                 </p>
-                <p className='p-1 text-gray-500'>
+                <p className='p-1 text-gray-500 h-12'>
                     <b className='text-gray-600'>Tech Stack: </b> {props?.props?.techstack}
                 </p>
                 <div className='flex '>
