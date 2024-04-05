@@ -1,12 +1,25 @@
+import { useState } from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { RiExternalLinkFill } from 'react-icons/ri';
 
-function SliderCard(props, centerCard) {
+function SliderCard(props) {
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    const handleImageLoad = () => {
+        setImageLoaded(true);
+    };
+
     return (
         <>
             <div className={props.centerCard === 'true' ? "md:flex hidden flex-col w-auto m-4 shadow-2xl rounded-md p-4 bg-white " : "md:flex hidden flex-col w-[1/4] m-4 shadow-md rounded-md p-4 bg-[#f4f4f5] "}>
-                <div className='h-48 w-96 p-1 mx-auto overflow-hidden'>
-                    <img src={props?.props?.coverImg} alt="Project Cover Img" className="object-cover h-full w-full" />
+                {/* Animated image loading */}
+                <div className={`relative overflow-hidden h-48 w-96 ${imageLoaded ? 'animate-slide-in' : ''}`}>
+                    <img
+                        src={props?.props?.coverImg}
+                        alt="Project Cover Img"
+                        className={`object-cover h-full w-full ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+                        onLoad={handleImageLoad}
+                    />
                 </div>
                 <h1 className='font-semibold text-xl text-gray-700'>{props?.props?.title}</h1>
                 <p className={props.centerCard === 'true' ? 'text-gray-600 h-12 m-1 overflow-hidden line-clamp-2' : 'line-clamp-2 m-1  text-gray-600 h-12 overflow-hidden'}>
@@ -26,7 +39,15 @@ function SliderCard(props, centerCard) {
             </div>
             {/* Mobile view */}
             <div className="md:hidden m-auto flex flex-col w-[90%]  shadow-md rounded-md p-2 bg-white">
-                <img src={props?.props?.coverImg} alt="Project Name" className="h-48 w-auto object-cover" />
+                {/* Animated image loading */}
+                <div className={`relative overflow-hidden h-48 w-auto ${imageLoaded ? 'animate-slide-in' : ''}`}>
+                    <img
+                        src={props?.props?.coverImg}
+                        alt="Project Name"
+                        className={`object-cover h-full w-full ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+                        onLoad={handleImageLoad}
+                    />
+                </div>
                 <h1 className='font-semibold text-xl  text-gray-700'>{props.props.title}</h1>
                 <p className='line-clamp-2 text-gray-600 overflow-hidden'>
                     <b>Description: </b> {props?.props?.description}
