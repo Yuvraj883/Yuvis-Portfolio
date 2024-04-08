@@ -327,8 +327,8 @@ function TechStacks() {
               <p className='font-semibold text-lg text-center'>Tailwind CSS</p>
             </div>
             <div>
-              <div className='rounded-full m-6 bg-gray-50 p-6 '>
-                <SiMui className='text-6xl text-blue-400 bg-blue-50 ' />
+              <div className='rounded-full m-2 bg-gray-50 p-2 '>
+                <SiMui className='text-6xl mx-auto text-blue-400 bg-blue-50 ' />
               </div>
               <p className='font-semibold text-lg text-center'>MUI</p>
             </div>
