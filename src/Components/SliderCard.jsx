@@ -38,21 +38,21 @@ function SliderCard(props) {
                 </div>
             </div>
             {/* Mobile view */}
-            <div className="md:hidden m-auto flex flex-col w-[90%]  shadow-md rounded-md p-2 bg-white">
+            <div className="md:hidden m-auto flex flex-col w-[95%]  shadow-md rounded-md p-2 bg-white">
                 {/* Animated image loading */}
-                <div className={`relative overflow-hidden h-48 w-auto ${imageLoaded ? 'animate-slide-in' : ''}`}>
+                <div className={`relative overflow-hidden  ${imageLoaded ? 'animate-slide-in' : ''}`}>
                     <img
                         src={props?.props?.coverImg}
                         alt="Project Name"
-                        className={`object-cover h-full w-full ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+                        className={`object-cover h-48 w-64 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
                         onLoad={handleImageLoad}
                     />
                 </div>
-                <h1 className='font-semibold text-xl  text-gray-700'>{props.props.title}</h1>
-                <p className='line-clamp-2 text-gray-600 overflow-hidden'>
+                <h1 className='font-semibold text-xl mt-1 line-clamp-1  text-gray-700'>{props.props.title}</h1>
+                <p className='line-clamp-2 text-gray-600 overflow-hidden h-12 m-1'>
                     <b>Description: </b> {props?.props?.description}
                 </p>
-                <p className='p-1 text-gray-500'>
+                <p className='p-1 text-gray-500 h-12 line-clamp-3'>
                     <b className='text-gray-600'>Tech Stack: </b> {props?.props?.techstack}
                 </p>
                 <div className='flex '>
