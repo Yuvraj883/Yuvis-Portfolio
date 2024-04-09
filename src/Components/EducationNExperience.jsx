@@ -40,8 +40,8 @@ const EducationNExperience = () => {
                                     <ul className="text-gray-500 p-2">
                                         <li className=" list-disc mx-0">WebDeveloper at GDSC MSIT.</li>
                                         <li className=" list-disc mx-0">Part of MSI(T) Football Team.</li>
-                                        <li className=" list-disc mx-0">Played as striker and helped the IT Department win the Inter-Department Football Tournament 2022-23.</li>
-                                        <li className=" list-disc mx-0">Won several individual medals as well as relay race in athletics in MSI(T) sports meet.</li>
+                                        <li className=" list-disc mx-0">Played as striker and helped the IT Department win the Inter-Department Football Tournament 2022-23.(Top scorer of the tournament)</li>
+                                        <li className=" list-disc mx-0">Won several medals in track & field at athletics meets</li>
                                         <li className=" list-disc mx-0">Secured 7.4 CGPA (till 3rd Semester).</li>
 
                                     </ul>
@@ -137,10 +137,10 @@ const EducationNExperience = () => {
                             <h1 className="font-bold text-xl ">Maharaja Surajmal Institute of Technology | GGSIPU</h1>
                             <h3 className="font-semibold text-gray-600">BTech in Information Technology | 2022-2025</h3>
                             <ul className="text-gray-500 p-2">
-                                <li className=" list-disc mx-0">WebDeveloper at GDSC MSIT.</li>
+                                <li className=" list-disc mx-0">Web Developer at GDSC MSIT.</li>
                                 <li className=" list-disc mx-0">Part of MSI(T) Football Team.</li>
-                                <li className=" list-disc mx-0">Played as striker and helped the IT Department win the Inter-Department Football Tournament 2022-23.</li>
-                                <li className=" list-disc mx-0">Won several individual medals as well as relay race in athletics in MSI(T) sports meet.</li>
+                                <li className=" list-disc mx-0">Played as striker and helped the IT Department win the Inter-Department Football Tournament 2022-23.(Top scorer of the tournament)</li>
+                                <li className=" list-disc mx-0">Won several medals at annual athletics meet.</li>
                                 <li className=" list-disc mx-0">Secured 7.4 CGPA (till 3rd Semester).</li>
 
                             </ul>
