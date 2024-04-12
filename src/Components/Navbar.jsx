@@ -22,11 +22,11 @@ function Navbar() {
     return () => clearInterval(rotateInterval);
   }, []);
 
-  const fadeIn = useSpring({
-    opacity: nav ? 1 : 0,
-    transform: nav ? 'translateY(0)' : 'translateY(-20px)',
-    config: { duration: 300 },
-  });
+  // const fadeIn = useSpring({
+  //   opacity: nav ? 1 : 0,
+  //   transform: nav ? 'translateY(0)' : 'translateY(-20px)',
+  //   config: { duration: 300 },
+  // });
 
   const rotateIcon = useSpring({
     to: { transform: `rotate(${rotateCounter * 360}deg) scale(1.2)` },
