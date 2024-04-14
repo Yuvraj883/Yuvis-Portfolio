@@ -49,7 +49,7 @@ function Home() {
             </p>
           </div>
           <animated.div style={slideIn}>
-            <img src="../images/Yuvraj6.jpeg" className="h-64 w-60 rounded-full" alt="Yuvraj Singh" />
+            <img src="../images/Yuvraj6.jpg" className="h-64 w-60 rounded-full" alt="Yuvraj Singh" />
           </animated.div>
         </animated.div>
       </div>
@@ -57,7 +57,7 @@ function Home() {
       {/* Mobile view */}
       <div className='md:hidden flex flex-col jutify-center items-center p-4 m-4'>
         <animated.div style={slideIn}>
-          <img src="../images/Yuvraj6.jpeg" className="h-64 w-64 rounded-full" alt="Yuvraj Singh" />
+          <img src="../images/Yuvraj6.jpg" className="h-64 w-64 rounded-full" alt="Yuvraj Singh" />
         </animated.div>
         <animated.div className='py-8 w-[65%] pr-4' style={fadeIn}>
           <div>
