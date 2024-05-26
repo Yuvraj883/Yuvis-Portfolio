@@ -56,6 +56,9 @@ const EducationNExperience = () => {
                       BTech in Information Technology | 2022-2025
                     </h3>
                     <ul className='text-gray-500 p-2'>
+                    <li className=' list-disc mx-0'>
+                        Obtained 7.4 CGPA (till 3rd Semester).
+                      </li>
                       <li className=' list-disc mx-0'>
                         Runner Up at Front End Contest organised at Maharaja
                         Agrasen Institute of Technology (MAIT).(April, 2024)
@@ -86,9 +89,7 @@ const EducationNExperience = () => {
                         Won 6 medals at the Annual Sports Days in the track and
                         field competitions across.(April 2023- January 2024)
                       </li>
-                      <li className=' list-disc mx-0'>
-                        Secured 7.4 CGPA (till 3rd Semester).
-                      </li>
+
                     </ul>
                   </div>
                 </div>
