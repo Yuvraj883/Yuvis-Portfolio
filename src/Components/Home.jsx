@@ -49,7 +49,7 @@ function Home() {
             </p>
           </div>
           <animated.div style={slideIn}>
-            <img src="../images/Yuvraj6.jpg" className="h-64 w-60 rounded-full" alt="Yuvraj Singh" />
+            <img src="../images/Yuvraj11.jpeg" className="h-64 w-60 rounded-full" alt="Yuvraj Singh" />
           </animated.div>
         </animated.div>
       </div>
