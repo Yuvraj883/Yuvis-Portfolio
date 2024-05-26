@@ -67,16 +67,17 @@ const EducationNExperience = () => {
                       <li className=' list-disc mx-0'>
                         Runner Up at IIC MSIT Ideathon.(April, 2024)
                       </li>
+                      <li className=' list-disc mx-0'>
+                        Headed the organisation of Robo-War event in the Annual
+                        Tech Fest of MSIT. (January 2024)
+                      </li>
 
                       <li className=' list-disc mx-0'>
                         Participated in the Google Solution Challenge and made a
                         contribution to the Google Developer Students Club
                         (GDSC-MSIT) as a web developer.(December 2022–July 2023)
                       </li>
-                      <li className=' list-disc mx-0'>
-                        Headed the organisation of Robo-War event in the Annual
-                        Tech Fest of MSIT. (January 2024)
-                      </li>
+
                       <li className=' list-disc mx-0'>
                         Won Inter Department Football Tournament 2022, with IT
                         Department.(December 2023)
