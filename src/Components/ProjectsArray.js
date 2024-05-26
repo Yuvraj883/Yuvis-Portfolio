@@ -3,7 +3,7 @@ const projects = [
      coverImg: '../images/easilyFamous.jpeg',
      title:'easilyfamous.com',
      description: 'It uses a service to allow user to get 10 free likes on a instagram post once every 6 hrs.',
-     techstack: 'ReactJs, TailwindCSS, NodeJS, Google Analytics', 
+     techstack: 'ReactJs, TailwindCSS, NodeJS, Google Analytics',
      github: 'https://github.com/Yuvraj883/easily-famous',
      live:'https://easilyfamous.com/'
 
@@ -17,6 +17,15 @@ const projects = [
         github: 'https://github.com/Yuvraj883/Crypto-Tracker',
         live: 'https://yuvis-crypto-tracker.netlify.app/'
 
+    },
+    {
+      id: 11,
+      coverImg: '../images/VishwaPublication.jpeg',
+      title: 'Vital Vishwa Publications',
+      description: 'Developed the website for Vital Vishwa Publication based on the given design.',
+      techstack:'ReactJs, React-Router-Dom, TailwindCSS',
+      github: 'https://github.com/Yuvraj883/Vishwa-Publication',
+      live: 'https://vitalvishwapublications.netlify.app/'
     },
     {
         id: 10,
@@ -39,8 +48,8 @@ const projects = [
         live: 'https://diusburg.github.io/LandingPage/'
 
     },
-    
-   
+
+
     {
         id: 8,
         coverImg: '../images/Portfolio.jpeg',
