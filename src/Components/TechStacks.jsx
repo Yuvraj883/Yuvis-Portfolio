@@ -13,6 +13,7 @@ import {
   SiBootstrap,
   SiMongodb,
   SiMui,
+  SiFirebase
 } from 'react-icons/si'
 
 function TechStacks() {
@@ -230,7 +231,15 @@ function TechStacks() {
               </div>
               <p className='font-semibold text-xl text-center'>Netlify</p>
             </div>
+            <div>
+              <div className='rounded-full m-6 bg-yellow-50 p-6 '>
+              <SiFirebase className='text-8xl text-yellow-500 '/>
+              </div>
+              <p className='font-semibold text-xl text-center'>Firebase</p>
+            </div>
           </div>
+
+
         )}
       </div>
       {/* Mobile view */}
@@ -428,6 +437,12 @@ function TechStacks() {
                 />
               </div>
               <p className='font-semibold text-lg text-center'>Netlify</p>
+            </div>
+            <div>
+              <div className='rounded-full m-4 bg-yellow-50 p-2 '>
+                <SiFirebase className='text-6xl m-auto text-yellow-500 ' />
+              </div>
+              <p className='font-semibold text-lg text-center'>Firebase</p>
             </div>
           </div>
         )}
