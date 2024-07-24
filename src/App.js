@@ -21,7 +21,7 @@ function App() {
         </Element>
         <Element name="about">
           <About></About>
-          <CardSlider/>
+          {/* <CardSlider/> */}
         </Element>
         <Element name="projects">
           <Projects></Projects>

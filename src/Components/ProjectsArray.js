@@ -8,16 +8,7 @@ const projects = [
      live:'https://easilyfamous.com/'
 
     },
-    {
-        id: 11,
-        coverImg: '../images/cryptoTracker.jpeg',
-        title: 'Crypto Tracker',
-        description: 'This site lists the prices and other details of some of the most popular cryptos, also has the search functionality.',
-        techstack: 'ReactJs, TailwindCSS, CoinGecko API, fetchAPI',
-        github: 'https://github.com/Yuvraj883/Crypto-Tracker',
-        live: 'https://yuvis-crypto-tracker.netlify.app/'
 
-    },
     {
       id: 11,
       coverImg: '../images/VishwaPublication.jpeg',
@@ -61,15 +52,15 @@ const projects = [
 
     },
     {
-        id: 7,
-        coverImg: '../images/RealEstate.jpeg',
-        title: 'Real Estate Site Landing Page',
-        description: 'It is a landing page for some real-estate site, made as part of an assignment.',
-        techstack: 'VueJs',
-        github: 'https://github.com/Yuvraj883/Real-Estate-Site',
-        live: 'https://real-estate-site-assignment.netlify.app/'
+      id: 11,
+      coverImg: '../images/cryptoTracker.jpeg',
+      title: 'Crypto Tracker',
+      description: 'This site lists the prices and other details of some of the most popular cryptos, also has the search functionality.',
+      techstack: 'ReactJs, TailwindCSS, CoinGecko API, fetchAPI',
+      github: 'https://github.com/Yuvraj883/Crypto-Tracker',
+      live: 'https://yuvis-crypto-tracker.netlify.app/'
 
-    },
+  },
 
     {
         id: 6,
@@ -132,6 +123,7 @@ const projects = [
         live: 'https://yuvraj883.github.io/Web-Template/'
 
     },
+
 
 
 ]
