@@ -13,7 +13,8 @@ import {
   SiBootstrap,
   SiMongodb,
   SiMui,
-  SiFirebase
+  SiFirebase,
+  SiNextdotjs
 } from 'react-icons/si'
 
 function TechStacks() {
@@ -105,23 +106,29 @@ function TechStacks() {
               <p className='font-semibold text-xl text-center'>Javascript</p>
             </div>
             <div>
+              <div className='rounded-full m-6 bg-gray-200 p-6 '>
+                <SiNextdotjs className='text-8xl text-black ' />
+              </div>
+              <p className='font-semibold text-xl text-center'>Next</p>
+            </div>
+            <div>
               <div className='rounded-full m-6 bg-blue-100 p-6 '>
                 <FaReact className='text-8xl text-blue-400 ' />
               </div>
               <p className='font-semibold text-xl text-center'>ReactJs</p>
             </div>
-            <div>
+            {/* <div>
               <div className='rounded-full m-6  bg-green-50 p-6 '>
                 <FaVuejs className='text-8xl text-green-500 bg-green-50 ' />
               </div>
               <p className='font-semibold text-xl text-center'>VueJs</p>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <div className='rounded-full m-6 bg-red-50 p-6 '>
                 <FaAngular className='text-8xl text-red-500 bg-red-50' />
               </div>
               <p className='font-semibold text-xl text-center'>AngularJs</p>
-            </div>
+            </div> */}
             <div>
               <div className='rounded-full m-6 bg-blue-50 p-6 '>
                 <SiTailwindcss className='text-8xl text-blue-400 bg-blue-50 ' />
@@ -134,12 +141,12 @@ function TechStacks() {
               </div>
               <p className='font-semibold text-xl text-center'>MUI</p>
             </div>
-            <div>
+            {/* <div>
               <div className='rounded-full m-6 bg-purple-50 p-6 '>
                 <SiBootstrap className='text-8xl text-purple-400' />
               </div>
               <p className='font-semibold text-xl text-center'>BootStrap</p>
-            </div>
+            </div> */}
           </div>
         )}
 
@@ -151,7 +158,7 @@ function TechStacks() {
                 {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
                 <FaNodeJs className='text-8xl text-green-400 ' />
               </div>
-              <p className='font-semibold text-xl text-center'>NodeJs</p>
+              <p className='font-semibold text-xl text-center'>Express JS</p>
             </div>
             <div>
               <div className='rounded-full m-6 bg-green-50 p-6 '>
@@ -312,23 +319,29 @@ function TechStacks() {
               <p className='font-semibold text-lg text-center'>Javascript</p>
             </div>
             <div>
+              <div className='rounded-full m-2 bg-gray-200 p-2 '>
+                <SiNextdotjs className='text-6xl mx-auto text-black ' />
+              </div>
+              <p className='font-semibold text-lg text-center'>Next</p>
+            </div>
+            <div>
               <div className='rounded-full m-2 bg-blue-100 p-2 '>
                 <FaReact className='text-6xl mx-auto text-blue-400 ' />
               </div>
               <p className='font-semibold text-lg text-center'>ReactJs</p>
             </div>
-            <div>
+            {/* <div>
               <div className='rounded-full m-2  bg-green-50 p-2 '>
                 <FaVuejs className='text-6xl mx-auto text-green-500 bg-green-50 ' />
               </div>
               <p className='font-semibold text-lg text-center'>VueJs</p>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <div className='rounded-full m-2 bg-red-50 p-2 '>
                 <FaAngular className='text-6xl mx-auto text-red-500 bg-red-50' />
               </div>
               <p className='font-semibold text-lg text-center'>AngularJs</p>
-            </div>
+            </div> */}
             <div>
               <div className='rounded-full m-2 bg-blue-50 p-2 '>
                 <SiTailwindcss className='text-6xl mx-auto text-blue-400 bg-blue-50 ' />
@@ -358,7 +371,7 @@ function TechStacks() {
                 {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
                 <FaNodeJs className='text-6xl m-auto text-green-400 ' />
               </div>
-              <p className='font-semibold text-lg text-center'>NodeJs</p>
+              <p className='font-semibold text-lg text-center'>ExpressJs</p>
             </div>
             <div>
               <div className='rounded-full m-4 bg-green-50 p-2 '>
