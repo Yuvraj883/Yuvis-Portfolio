@@ -3,8 +3,8 @@ import {
   FaHtml5,
   FaReact,
   FaCss3Alt,
-  FaAngular,
-  FaVuejs,
+  // FaAngular,
+  // FaVuejs,
   FaNodeJs,
 } from 'react-icons/fa'
 import {
