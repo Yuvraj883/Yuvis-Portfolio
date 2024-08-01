@@ -6,7 +6,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import { Element } from 'react-scroll';
 import EducationNExperience from './Components/EducationNExperience';
-import CardSlider from './Components/CardSlider';
+// import CardSlider from './Components/CardSlider';
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import {Switch} from 'react-router';
