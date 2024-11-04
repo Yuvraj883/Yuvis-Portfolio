@@ -1,9 +1,9 @@
 const projects = [
     {id:12,
-     coverImg: '../images/easilyFamous.jpeg',
+     coverImg: '../images/easilyfamous.png',
      title:'easilyfamous.com',
      description: 'It uses a service to allow user to get 10 free likes on a instagram post once every 6 hrs.',
-     techstack: 'ReactJs, TailwindCSS, NodeJS, Google Analytics',
+     techstack: 'Next, Typescript, TailwindCSS, NodeJS, Google Analytics',
      github: 'https://github.com/Yuvraj883/easily-famous',
      live:'https://easilyfamous.com/'
 
@@ -31,24 +31,25 @@ const projects = [
 
     {
         id: 9,
-        coverImg: '../images/Diusburg.jpeg',
-        title: 'Diusburg Landing Page',
-        description: 'Diusburg is a edTech organisation, which is dedicated to help students willing to study abroad.',
-        techstack: 'HTML, CSS',
-        github: 'https://github.com/Diusburg/LandingPage',
-        live: 'https://diusburg.github.io/LandingPage/'
+        coverImg: '../images/Zomarzo.png',
+        title: 'Zomarzo: E-commerce platform',
+        description: 'A full stack e-commerce website, having features such as add to cart, search, filter, checkout, authentication etc. ',
+        techstack: 'NodeJs, ExpressJs, Javascript, HTML, CSS, TailwindCSS',
+        github: 'https://github.com/Yuvraj883/XArterian',
+        live: 'https://zamazor-xarterian.netlify.app/'
 
     },
 
 
     {
         id: 8,
-        coverImg: '../images/Portfolio.jpeg',
-        title: 'Dummy Portfolio',
-        description: 'Made this site while learning HTML and CSS.',
-        techstack: 'HTML, CSS',
-        github: 'https://github.com/Yuvraj883/myPortfolio',
-        live: 'https://yuvraj883.github.io/myPortfolio/index.html'
+        coverImg: '../images/PC-msit.png',
+        title: 'PC MSIT',
+        description: `Email: student@msit.in Password: 12345678
+        An initiative to make the on campus placement process easy and more accessible for the students of MSIT. Has admin panel as well for the Training Placement Officer.`,
+        techstack: 'MongoDB, ExpressJs, ReactJs, NodeJs, TailwindCSS ',
+        github: 'https://github.com/Yuvraj883/placement-cell',
+        live: 'https://placement-cell-iczn.onrender.com/home'
 
     },
     {
@@ -83,16 +84,16 @@ const projects = [
         live: 'https://convrt-txt-to-speech.netlify.app/'
 
     },
-    {
-        id: 4,
-        coverImg: './images/PasswordGenerator.jpeg',
-        title: 'Unique Password Generator',
-        description: 'It is a random password generator, which generates unique 15 characters long password using JS.',
-        techstack: 'HTML, CSS, JS',
-        github: 'https://github.com/Yuvraj883/Password-Generator',
-        live: 'https://newpasswordgenerator.netlify.app/'
+    // {
+    //     id: 4,
+    //     coverImg: './images/PasswordGenerator.jpeg',
+    //     title: 'Unique Password Generator',
+    //     description: 'It is a random password generator, which generates unique 15 characters long password using JS.',
+    //     techstack: 'HTML, CSS, JS',
+    //     github: 'https://github.com/Yuvraj883/Password-Generator',
+    //     live: 'https://newpasswordgenerator.netlify.app/'
 
-    },
+    // },
 
     {
         id: 3,
@@ -105,12 +106,12 @@ const projects = [
     },
     {
         id: 2,
-        coverImg: '../images/TextTranslator.jpeg',
-        title: 'Pirates speak',
-        description: 'This site translates your texts into the pirates language using the "https://api.funtranslations.com/translate/minion.json" api.',
-        techstack: 'HTML, CSS, JS, FetchAPI',
-        github: 'https://github.com/Yuvraj883/Task-Manager',
-        live: 'https://github.com/Yuvraj883/Task-Manager'
+        coverImg: '../images/Blogify.png',
+        title: 'Blogify',
+        description: 'Blog app dedicated to posting Javascript related blogs. Has a login/signup and token based authentication system.',
+        techstack: 'MongoDB, Nodejs, ExpressJs, Ejs',
+        github: 'https://github.com/Yuvraj883/Blog-app',
+        live: 'https://js-world-navy.vercel.app/'
 
     },
      {
