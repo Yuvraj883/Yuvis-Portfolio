@@ -52,6 +52,10 @@ function Projects() {
                         />
                     ))}
                 </div>
+                    <div className="flex justify-center mt-4">
+                    <button className="bg-black text-white px-4 py-2 rounded-r-full rounded-l-full text-lg "><a href="https://github.com/Yuvraj883?tab=repositories"> See All Projects</a></button>
+
+                    </div>
             </div>
             {/* Mobile View */}
             <div className="md:hidden w-[80%] mx-auto bg-white shadow-lg p-8 block overflow-auto">
@@ -77,7 +81,12 @@ function Projects() {
                         />
                     ))}
                 </div>
+                <div className="flex justify-center mt-4">
+                    <button className="bg-black text-white px-4 py-2 rounded-r-full rounded-l-full text-lg "><a href="https://github.com/Yuvraj883?tab=repositories"> See All Projects</a></button>
+
+                    </div>
             </div>
+
         </div>
     )
 }
