@@ -2,7 +2,7 @@ const projects = [
     {id:12,
      coverImg: '../images/easilyfamous.png',
      title:'easilyfamous.com',
-     description: 'It uses a service to allow user to get 10 free likes on a instagram post once every 6 hrs.',
+     description: 'GenAI based project which enables users to generate ready to use content with the help of Gemini, without having them to learn prompt engineering.',
      techstack: 'Next, Typescript, TailwindCSS, NodeJS, Google Analytics',
      github: 'https://github.com/Yuvraj883/easily-famous',
      live:'https://easilyfamous.com/'
