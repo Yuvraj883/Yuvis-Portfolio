@@ -21,7 +21,7 @@ function SliderCard(props) {
                         onLoad={handleImageLoad}
                     />
                 </div>
-                <h1 className='font-semibold text-xl text-gray-700'>{props?.props?.title}</h1>
+                <h1 className='font-semibold text-xl text-gray-700 mt-2 underline'>{props?.props?.title}</h1>
                 <p className={props.centerCard === 'true' ? 'text-gray-600 h-12 m-1 overflow-hidden line-clamp-2' : 'line-clamp-2 m-1  text-gray-600 h-12 overflow-hidden'}>
                     <b>Description: </b> {props?.props?.description}
                 </p>
@@ -48,7 +48,7 @@ function SliderCard(props) {
                         onLoad={handleImageLoad}
                     />
                 </div>
-                <h1 className='font-semibold text-xl mt-1 line-clamp-1  text-gray-700'>{props.props.title}</h1>
+                <h1 className='font-semibold text-xl mt-2 line-clamp-1  text-gray-700 underline'>{props.props.title}</h1>
                 <p className='line-clamp-2 text-gray-600 overflow-hidden h-12 m-1'>
                     <b>Description: </b> {props?.props?.description}
                 </p>
