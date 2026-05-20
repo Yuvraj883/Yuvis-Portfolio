@@ -11,13 +11,12 @@ function About() {
                     </div>
                     <div className="flex-1 p-4">
                         <h3 className="text-blue-500 font-semibold">About Me</h3>
-                        <h1 className="font-extrabold text-lg">A dedicated Front-End Developer based in New Delhi, India</h1>
+                        <h1 className="font-extrabold text-lg">A dedicated Backend & AI Engineer based in New Delhi, India</h1>
                         <p>
-                            I am currently pursuing degree in Bachelors of Technology, in the field of Information and Technology,
-                            from Maharaja Surajmal Institute of Technology, New Delhi, India. As a front end developer I have a impressive
-                            arsenal of skills in HTML, CSS, Javascript, ReactJS and TailwindCSS. <br />
-                            I have also worked with VueJS and AngularJS and am familiar with NodeJs/ExpressJS and MongoDB.
-
+                            I have completed my Bachelors of Technology in Information Technology
+                            from Maharaja Surajmal Institute of Technology, New Delhi. As a Backend & AI Engineer, I have a strong
+                            arsenal of skills in Python, Node.js, FastAPI, and GenAI technologies like LangChain and n8n. <br />
+                            I specialize in building scalable microservices, distributed systems, and agentic RAG-based AI applications.
                         </p>
                     </div>
                 </div>
@@ -36,13 +35,11 @@ function About() {
                     </div>
                     <div className="flex-1 p-4">
                         <h3 className="text-blue-500 font-semibold">About Me</h3>
-                        <h1 className="font-extrabold text-lg ">A dedicated Front-End Developer based in New Delhi, India</h1>
+                        <h1 className="font-extrabold text-lg ">A dedicated Backend & AI Engineer based in New Delhi, India</h1>
                         <p className='p-2'>
-                            I am currently pursuing degree in Bachelors of Technology, in the field of Information and Technology,
-                            from Maharaja Surajmal Institute of Technology, New Delhi, India. As a front end developer I have a impressive
-                            arsenal of skills in HTML, CSS, Javascript, ReactJS and TailwindCSS. <br />
-                            I have also worked with VueJS and AngularJS and am familiar with NodeJs/ExpressJS and MongoDB.
-
+                            I have completed my Bachelors of Technology in Information Technology
+                            from Maharaja Surajmal Institute of Technology, New Delhi. I specialize in building scalable microservices,
+                            distributed systems, and agentic RAG-based AI applications using Python, Node.js, and FastAPI.
                         </p>
 
                         <a href={require("../assets/Yuvraj-Singh-Resume.pdf")} className="flex justify-center items-center mt-4" download="Yuvraj Singh's Resume"><button className="bg-black text-white font-bold text-lg m-auto px-6 rounded-md py-2 w-4/5  ">Download Resume</button></a>

@@ -31,7 +31,7 @@ function Home() {
             <h1 className='inline text-lg font-semibold'>I am &nbsp; </h1>
             <span className='text-[#E5BA73] font-extrabold text-4xl h-16 mb-8 '>
               <Typewriter
-                words={[" a Front-End Developer", ' a Back-End Developer', ' a Full Stack Developer', ' Yuvraj Singh!!!']}
+                words={[" a Backend & AI Engineer", ' a Distributed Systems specialist', ' a GenAI Expert', ' Yuvraj Singh!!!']}
                 loop={1}
                 cursor
                 cursorStyle='|'
@@ -66,7 +66,7 @@ function Home() {
           <h1 className='inline text-lg font-semibold'>I am &nbsp; </h1>
           <span className='text-[#E5BA73] font-extrabold text-3xl h-16 mb-8 '>
             <Typewriter
-              words={[" a Front-End Developer", ' a Back-End Developer', ' a Full Stack Developer', ' Yuvraj Singh!!!']}
+              words={[" a Backend & AI Engineer", ' a Distributed Systems specialist', ' a GenAI Expert', ' Yuvraj Singh!!!']}
               loop={1}
               cursor
               cursorStyle='|'

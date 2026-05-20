@@ -57,7 +57,7 @@ const EducationNExperience = () => {
                     </h3>
                     <ul className='text-gray-500 p-2'>
                     <li className=' list-disc mx-0'>
-                        Obtained 7.4 CGPA (till 3rd Semester).
+                        Completed Graduation with 8.1 CGPA.
                       </li>
                       <li className=' list-disc mx-0'>
                         Runner Up at Front End Contest organised at Maharaja
@@ -135,22 +135,19 @@ const EducationNExperience = () => {
                   <div className='border-l-2 h-56 absolute left-[50%] border-solid border-black shadow-xl '></div>
                   <div className='absolute w-[30px] h-[30px] top-[80%] my-auto rounded-full bg-black left-[49%]  '></div>
                   <div className='bg-white p-4 text-black w-[40%] rounded-md ml-8 float-left '>
-                    <h1 className='font-bold text-2xl '>
-                      A2D Innovations Pvt. Ltd.
-                    </h1>
+                    <h1 className='font-bold text-2xl '>ZS</h1>
                     <h3 className='font-semibold text-gray-600'>
-                      VueJS Developer Intern | February 2022 - April 2022 |
-                      Remote
+                      Backend Engineer | December 2025 - Present | Gurugram, India
                     </h3>
                     <ul className='text-gray-500 p-2'>
                       <li className=' list-disc mx-0'>
-                        Built fully functional front-end for the clients of A2D.
+                        Developed backend microservices for the Kural AI Analytics Platform, delivering 5+ end-to-end features.
                       </li>
                       <li className=' list-disc mx-0'>
-                        Integrated backend APIs and handled routing.
+                        Refactored large-scale data ingestion pipelines from Pandas to Polars, achieving a 7x increase in processing speed.
                       </li>
                       <li className=' list-disc mx-0'>
-                        Skills: VueJS, Vue-Router, VueX.
+                        Skills: Python, Polars, Microservices, System Observability.
                       </li>
                     </ul>
                   </div>
@@ -161,26 +158,19 @@ const EducationNExperience = () => {
                   <div className='border-l-2 h-56 absolute left-[50%] border-solid border-black shadow-xl'></div>
                   <div className='absolute w-[30px] h-[30px] top-[70%] rounded-full bg-black left-[49%]  '></div>
                   <div className='bg-white p-4 text-black w-[40%] float-right mr-5 rounded-md '>
-                    <h1 className='font-bold text-2xl '>
-                      Delhi Skill & Entrepreneurship University
-                    </h1>
+                    <h1 className='font-bold text-2xl '>HAWKMARTECH</h1>
                     <h3 className='font-semibold text-gray-600'>
-                      Intern | August 2021 - September 2021 | New Delhi
+                      Backend & AI Engineer (SDE-I) | Dec 2024 - Nov 2025 | Gurugram, India
                     </h3>
                     <ul className='text-gray-500 p-2'>
                       <li className=' list-disc mx-0'>
-                        Worked directly under the supervision of the then Deputy
-                        CM and Education Minister of Delhi Shri Manish Sisodiya
-                        ji. .
+                        Architected REST and GraphQL APIs for high-traffic platforms (One Turf News), supporting 1M+ users.
                       </li>
                       <li className=' list-disc mx-0'>
-                        Contributed to the successful organisation of first ever
-                        qualification rounds of World Skill Contest for Delhi
-                        NCR.
+                        Built an agentic RAG-based GenAI system using LangChain and n8n to automate 80% of real-time content generation.
                       </li>
                       <li className=' list-disc mx-0'>
-                        Skills: Communication Skills, Excel, Database
-                        Management.
+                        Skills: Node.js, GraphQL, Redis, LangChain, n8n, RAG.
                       </li>
                     </ul>
                   </div>
@@ -228,21 +218,7 @@ const EducationNExperience = () => {
                 BTech in Information Technology | 2022-2025
               </h3>
               <ul className='text-gray-500 p-2'>
-                <li className=' list-disc mx-0'>Web Developer at GDSC MSIT.</li>
-                <li className=' list-disc mx-0'>
-                  Part of MSI(T) Football Team.
-                </li>
-                <li className=' list-disc mx-0'>
-                  Played as striker and helped the IT Department win the
-                  Inter-Department Football Tournament 2022-23.(Top scorer of
-                  the tournament)
-                </li>
-                <li className=' list-disc mx-0'>
-                  Won several medals at annual athletics meet.
-                </li>
-                <li className=' list-disc mx-0'>
-                  Secured 7.4 CGPA (till 3rd Semester).
-                </li>
+                <li className=' list-disc mx-0'>Completed Graduation with 8.1 CGPA.</li>
               </ul>
             </div>
 
@@ -278,19 +254,19 @@ const EducationNExperience = () => {
             <div className='bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative shadow-xl '>
               <div className='absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  '></div>
 
-              <h1 className='font-bold text-xl '>A2D Innovations Pvt. Ltd.</h1>
+              <h1 className='font-bold text-xl '>ZS</h1>
               <h3 className='font-semibold text-gray-600'>
-                VueJS Developer Intern | February 2022 - April 2022 | Remote
+                Backend Engineer | Dec 2025 - Present
               </h3>
               <ul className='text-gray-500 p-2'>
                 <li className=' list-disc mx-0'>
-                  Built fully functional front-end for the clients of A2D.
+                  Developed backend microservices for Kural AI Analytics.
                 </li>
                 <li className=' list-disc mx-0'>
-                  Integrated backend APIs and handled routing.
+                  Refactored pipelines (7x speed increase using Polars).
                 </li>
                 <li className=' list-disc mx-0'>
-                  Skills: VueJS, Vue-Router, VueX.
+                  Skills: Python, Polars, Microservices.
                 </li>
               </ul>
             </div>
@@ -298,24 +274,20 @@ const EducationNExperience = () => {
             <div className='bg-white p-4 text-black w-[100%] rounded-md ml-8 float-left relative shadow-xl mt-8'>
               <div className='absolute w-[30px] h-[30px]  my-auto rounded-full bg-black left-[-14%] top-[50%]  '></div>
 
-              <h1 className='font-bold text-xl '>
-                Delhi Skill & Entrepreneurship University
-              </h1>
+              <h1 className='font-bold text-xl '>HAWKMARTECH</h1>
               <h3 className='font-semibold text-gray-600'>
-                Intern | August 2021 - September 2021 | New Delhi
+                Backend & AI Engineer | Dec 2024 - Nov 2025
               </h3>
 
               <ul className='text-gray-500 p-2'>
                 <li className=' list-disc mx-0'>
-                  Worked directly under the supervision of the then Deputy CM
-                  and Education Minister of Delhi Shri Manish Sisodiya ji. .
+                  Architected APIs for 1M+ users platform.
                 </li>
                 <li className=' list-disc mx-0'>
-                  Contributed to the successful organisation of first ever
-                  qualification rounds of World Skill Contest for Delhi NCR.
+                  Built agentic RAG-based GenAI system.
                 </li>
                 <li className=' list-disc mx-0'>
-                  Skills: Communication Skills, Excel, Database Management.
+                  Skills: Node.js, GraphQL, LangChain, n8n.
                 </li>
               </ul>
             </div>

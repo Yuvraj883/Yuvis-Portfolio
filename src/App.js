@@ -14,7 +14,10 @@ import EducationNExperience from './Components/EducationNExperience';
 function App() {
   return (
     <>
-      <div className="bg-[#f4f4f5] overflow-hidden scroll-smooth">
+      <div className="bg-gradient-to-br from-slate-50 via-white to-zinc-100 overflow-hidden scroll-smooth min-h-screen relative">
+        {/* Optional: Add a subtle decorative blob in the background to make it less plain */}
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#E5BA73] rounded-full mix-blend-multiply filter blur-[100px] opacity-10 pointer-events-none"></div>
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-300 rounded-full mix-blend-multiply filter blur-[100px] opacity-10 pointer-events-none"></div>
         <Navbar></Navbar>
         <Element name="home">
           <Home></Home>

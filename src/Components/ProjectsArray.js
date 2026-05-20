@@ -2,7 +2,7 @@ const projects = [
     {id:12,
      coverImg: '../images/easilyfamous.png',
      title:'easilyfamous.com',
-     description: 'GenAI based project which enables users to generate ready to use content with the help of Gemini, without having them to learn prompt engineering.',
+     description: 'Engineered a GenAI content engine using custom LangChain prompts, increasing user content creation speed by 3x. Integrated Google Analytics to track user behavior and derive actionable data insights.',
      techstack: 'Next, Typescript, TailwindCSS, NodeJS, Google Analytics',
      github: 'https://github.com/Yuvraj883/easily-famous',
      live:'https://easilyfamous.com/'
@@ -12,8 +12,7 @@ const projects = [
       id: 8,
       coverImg: '../images/PC-msit.png',
       title: 'PC MSIT',
-      description: `Email: student@msit.in Password: 12345678
-      An initiative to make the on campus placement process easy and more accessible for the students of MSIT. Has admin panel as well for the Training Placement Officer.`,
+      description: `Built a centralized platform for 400+ students to manage job applications, leading to a 50% faster recruitment notification cycle. Designed an RBAC-driven admin dashboard allowing TnP officials to filter 1000+ applications by custom eligibility criteria in seconds.`,
       techstack: 'MongoDB, ExpressJs, ReactJs, NodeJs, TailwindCSS ',
       github: 'https://github.com/Yuvraj883/placement-cell',
       live: 'https://placement-cell-iczn.onrender.com/home'

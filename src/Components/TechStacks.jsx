@@ -14,13 +14,22 @@ import {
   SiMongodb,
   SiMui,
   SiFirebase,
-  SiNextdotjs
+  SiNextdotjs,
+  SiRedis
 } from 'react-icons/si'
+import { FaPython, FaJava, FaDocker, FaRobot, FaBolt } from 'react-icons/fa'
+
 
 function TechStacks() {
-  const [frontEnd, setFrontEnd] = useState(true)
-  const [backEnd, setBackEnd] = useState(false)
+  const [frontEnd, setFrontEnd] = useState(false)
+  const [backEnd, setBackEnd] = useState(true)
   const [others, setOthers] = useState(false)
+
+  // Re-map categories:
+  // frontEnd -> Frontend & Web
+  // backEnd -> Backend & GenAI
+  // others -> Languages & Tools
+
 
   // function setFrontEnd(){
   //     setBackEnd(false);
@@ -52,7 +61,7 @@ function TechStacks() {
                 : 'hover:bg-[#f1f5f9] py-2 px-8 rounded-md  '
             }`}
           >
-            Front-End
+            Frontend & Web
           </button>
           <button
             onClick={() => {
@@ -66,7 +75,7 @@ function TechStacks() {
                 : 'hover:bg-[#f1f5f9] py-2 px-8 rounded-md  '
             }`}
           >
-            Back-End
+            Backend & GenAI
           </button>
           <button
             onClick={() => {
@@ -80,7 +89,7 @@ function TechStacks() {
                 : 'hover:bg-[#f1f5f9] py-2 px-8 rounded-md  '
             }`}
           >
-            Others
+            Languages & Tools
           </button>
         </div>
         {frontEnd === true && (
@@ -152,19 +161,42 @@ function TechStacks() {
 
         {/* Back End */}
         {backEnd === true && (
-          <div className='flex  w-4/5 m-auto items-center flex-wrap'>
+          <div className='flex  w-4/5 m-auto items-center flex-wrap justify-center'>
             <div>
               <div className='rounded-full m-6 bg-green-50 p-6 '>
-                {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
+                <FaBolt className='text-8xl text-green-500 ' />
+              </div>
+              <p className='font-semibold text-xl text-center'>FastAPI</p>
+            </div>
+            <div>
+              <div className='rounded-full m-6 bg-green-50 p-6 '>
                 <FaNodeJs className='text-8xl text-green-400 ' />
               </div>
-              <p className='font-semibold text-xl text-center'>Express JS</p>
+              <p className='font-semibold text-xl text-center'>Node.js</p>
             </div>
             <div>
               <div className='rounded-full m-6 bg-green-50 p-6 '>
                 <SiMongodb className='text-8xl text-green-600 ' />
               </div>
               <p className='font-semibold text-xl text-center'>MongoDB</p>
+            </div>
+            <div>
+              <div className='rounded-full m-6 bg-red-50 p-6 '>
+                <SiRedis className='text-8xl text-red-600 ' />
+              </div>
+              <p className='font-semibold text-xl text-center'>Redis</p>
+            </div>
+            <div>
+              <div className='rounded-full m-6 bg-blue-50 p-6 '>
+                <FaDocker className='text-8xl text-blue-600 ' />
+              </div>
+              <p className='font-semibold text-xl text-center'>Docker</p>
+            </div>
+            <div>
+              <div className='rounded-full m-6 bg-gray-100 p-6 '>
+                <FaRobot className='text-8xl text-red-500 ' />
+              </div>
+              <p className='font-semibold text-xl text-center'>n8n / AI</p>
             </div>
           </div>
         )}
@@ -195,12 +227,15 @@ function TechStacks() {
             </div>
 
             <div>
+              <div className='rounded-full m-6 bg-blue-50 p-6 '>
+                <FaPython className='text-8xl text-blue-500' />
+              </div>
+              <p className='font-semibold text-xl text-center'>Python</p>
+            </div>
+
+            <div>
               <div className='rounded-full m-6 bg-red-50 p-6 '>
-                <img
-                  src={require('../assets/Java.png')}
-                  className='h-24'
-                  alt='Java'
-                />
+                <FaJava className='text-8xl text-red-500' />
               </div>
               <p className='font-semibold text-xl text-center'>Java</p>
             </div>
@@ -210,7 +245,7 @@ function TechStacks() {
                 <img
                   src={require('../assets/Git.png')}
                   className='h-24'
-                  alt='Java'
+                  alt='Git'
                 />
               </div>
 
@@ -265,7 +300,7 @@ function TechStacks() {
                 : 'hover:bg-[#f1f5f9] py-1 px-2 rounded-md  '
             }`}
           >
-            Front-End
+            Web
           </button>
           <button
             onClick={() => {
@@ -279,7 +314,7 @@ function TechStacks() {
                 : 'hover:bg-[#f1f5f9] py-1 px-2 rounded-md  '
             }`}
           >
-            Back-End
+            Backend
           </button>
           <button
             onClick={() => {
@@ -293,7 +328,7 @@ function TechStacks() {
                 : 'hover:bg-[#f1f5f9] py-1 px-2 rounded-md  '
             }`}
           >
-            Others
+            Tools
           </button>
         </div>
         {frontEnd === true && (
@@ -366,18 +401,30 @@ function TechStacks() {
         {/* Back End */}
         {backEnd === true && (
           <div className='flex space-x-4 w-4/5 m-auto justify-center items-center flex-wrap'>
+             <div>
+              <div className='rounded-full m-4 bg-green-50 p-2 '>
+                <FaBolt className='text-6xl m-auto text-green-500 ' />
+              </div>
+              <p className='font-semibold text-lg text-center'>FastAPI</p>
+            </div>
             <div>
               <div className='rounded-full m-4 bg-green-50 p-2 '>
                 {/* <img src={require('../assets/node.png')} className='h-24 w-24' alt="Java" /> */}
                 <FaNodeJs className='text-6xl m-auto text-green-400 ' />
               </div>
-              <p className='font-semibold text-lg text-center'>ExpressJs</p>
+              <p className='font-semibold text-lg text-center'>Node.js</p>
             </div>
             <div>
               <div className='rounded-full m-4 bg-green-50 p-2 '>
                 <SiMongodb className='text-6xl m-auto text-green-600 ' />
               </div>
               <p className='font-semibold text-lg text-center'>MongoDB</p>
+            </div>
+             <div>
+              <div className='rounded-full m-4 bg-red-50 p-2 '>
+                <SiRedis className='text-6xl m-auto text-red-600 ' />
+              </div>
+              <p className='font-semibold text-lg text-center'>Redis</p>
             </div>
           </div>
         )}
